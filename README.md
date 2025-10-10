@@ -39,16 +39,6 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
 [1996]: https://zenodo.org/records/13345174/files/profiles_1996.tar.bz2
 [1995]: https://zenodo.org/records/13345174/files/profiles_1995.tar.bz2
 
-| Links | Download Size | Uncompressed Size |
-|-|-|-|
-| [Scan-level time series][scans] | 11G | 35G | 
-| [5-minute time series][5min] | 14G | 54G |
-| [Daily time series][daily] | 142M | 457M |
-| Profiles: <br/> [1995][] [1996][] [1997][] [1998][] [1999][] <br/> [2000][] [2001][] [2002][] [2003][] [2004][] <br/> [2005][] [2006][] [2007][] [2008][] [2009][] <br/> [2010][] [2011][] [2012][] [2013][] [2014][] <br/> [2015][] [2016][] [2017][] [2018][] [2019][] <br/> [2020][] [2021][] [2022][] | 5—10G each | 25—50G each|
-
-
-## Download Links (UMass Mirror)
-
 [scans-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/scans.tar.bz2
 [5min-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/5min.tar.bz2
 [daily-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/daily.tar.bz2
@@ -82,9 +72,19 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
 [2021-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2021.tar.bz2
 [2022-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2022.tar.bz2
 
-| Links | Download Size | Uncompressed Size |
-|-|-|-|
-| [Scan-level time series][scans] | 11G | 35G | 
-| [5-minute time series][5min] | 14G | 54G |
-| [Daily time series][daily] | 142M | 457M |
-| Profiles: <br/> [1995] [1996] [1997] [1998] [1999] <br/> [2000] [2001] [2002] [2003] [2004] <br/> [2005] [2006] [2007] [2008] [2009] <br/> [2010] [2011] [2012] [2013] [2014] <br/> [2015] [2016] [2017] [2018] [2019] <br/> [2020] [2021] [2022] | 5—10G each | 25—50G each|
+
+## Time Series Data Downloads
+
+| Data | Filename | Size | Uncompressed | Download |
+|-|-|-|-|
+| Scan-level time series | scans.tar.bz2 | 11G | 35G | [zenodo][scans] [umass][scans-um] |
+| 5-minute time series | 5min.tar.bz2 | 14G | 54G | [zenodo][5min] [umass][5min-um] |
+| Daily time series | daily.tar.bz2 | 142M | 457M | [zenodo][daily] [umass][daily-um] |
+
+
+## Profile Data Downloads
+
+Profile data files for each years are 5—10G compressed, and 25—50G uncompressed. The archive for each year  contain millions of files each and may take hours to extract.
+
+| Zenodo | UMass |
+| [1995][] [1996][] [1997][] [1998][] [1999][] <br/> [2000][] [2001][] [2002][] [2003][] [2004][] <br/> [2005][] [2006][] [2007][] [2008][] [2009][] <br/> [2010][] [2011][] [2012][] [2013][] [2014][] <br/> [2015][] [2016][] [2017][] [2018][] [2019][] <br/> [2020][] [2021][] [2022][] | [1995-um] [1996-um] [1997-um] [1998-um] [1999-um] <br/> [2000-um] [2001-um] [2002-um] [2003-um] [2004-um] <br/> [2005-um] [2006-um] [2007-um] [2008-um] [2009-um] <br/> [2010-um] [2011-um] [2012-um] [2013-um] [2014-um] <br/> [2015-um] [2016-um] [2017-um] [2018-um] [2019-um] <br/> [2020-um] [2021-um] [2022-um] |
