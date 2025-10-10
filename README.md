@@ -75,9 +75,7 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
 
 Data files can be downloaded from either Zenodo or UMass.
 
-### Time Series Data Downloads
-
-Three different types of time series data are available. Each archive contains data from 1995 through 2022. 
+### Time Series
 
 | Data | Filename | Size | Uncompressed Size | Download Links |
 |-|-|-|-|-|
@@ -85,11 +83,12 @@ Three different types of time series data are available. Each archive contains d
 | 5-minute time series | 5min.tar.bz2 | 14G | 54G | [[zenodo]][5min] [[umass]][5min-um] |
 | Daily time series | daily.tar.bz2 | 142M | 457M | [[zenodo]][daily] [[umass]][daily-um] |
 
+### Profiles
 
+Profiles are organized by year. Files are named `profiles_YYYY.tar.bz2` where `YYYY` is the four-digit year and range from about 5G to 9G and 25G to 50G uncompressed.
 
-| Zenodo | UMass |
+| Profile Download Links - Zenodo | Profile Download Links - UMass |
 |--------|-------|
 | [1995][] [1996][] [1997][] [1998][] [1999][] <br/> [2000][] [2001][] [2002][] [2003][] [2004][] <br/> [2005][] [2006][] [2007][] [2008][] [2009][] <br/> [2010][] [2011][] [2012][] [2013][] [2014][] <br/> [2015][] [2016][] [2017][] [2018][] [2019][] <br/> [2020][] [2021][] [2022][] | [1995][1995-um] [1996][1996-um] [1997][1997-um] [1998][1998-um] [1999][1999-um] <br/> [2000][2000-um] [2001][2001-um] [2002][2002-um] [2003][2003-um] [2004][2004-um] <br/> [2005][2005-um] [2006][2006-um] [2007][2007-um] [2008][2008-um] [2009][2009-um] <br/> [2010][2010-um] [2011][2011-um] [2012][2012-um] [2013][2013-um] [2014][2014-um] <br/> [2015][2015-um] [2016][2016-um] [2017][2017-um] [2018][2018-um] [2019][2019-um] <br/> [2020][2020-um] [2021][2021-um] [2022][2022-um] |
 
-
-The profile data files are named `profiles_YYYY.tar.bz2` where `YYYY` is the four-digit year. Files range from about 5G to 9G and 25G to 50G uncompressed. Each archive contains millions of individual files and may take hours to extract. Download links from Zenodo and UMass are in the table below.
+Note: one year worth of profile data includes millions of individual files and may take a long time to extract.
