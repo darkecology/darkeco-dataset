@@ -4,7 +4,7 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
 
 ## Quick Start
 
-## Download Links
+## Download Links (Zenodo)
 
 [5min]: https://zenodo.org/records/13345266/files/5min.tar.bz2
 [daily]: https://zenodo.org/records/13345266/files/daily.tar.bz2
@@ -49,38 +49,38 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
 
 ## Download Links (UMass Mirror)
 
-[scans]: https://doppler.cs.umass.edu/darkecodata/1.0.0/scans.tar.bz2
-[5min]: https://doppler.cs.umass.edu/darkecodata/1.0.0/5min.tar.bz2
-[daily]: https://doppler.cs.umass.edu/darkecodata/1.0.0/daily.tar.bz2
+[scans-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/scans.tar.bz2
+[5min-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/5min.tar.bz2
+[daily-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/daily.tar.bz2
 
-[1995]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1995.tar.bz2
-[1996]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1996.tar.bz2
-[1997]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1997.tar.bz2
-[1998]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1998.tar.bz2
-[1999]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1999.tar.bz2
-[2000]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2000.tar.bz2
-[2001]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2001.tar.bz2
-[2002]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2002.tar.bz2
-[2003]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2003.tar.bz2
-[2004]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2004.tar.bz2
-[2005]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2005.tar.bz2
-[2006]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2006.tar.bz2
-[2007]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2007.tar.bz2
-[2008]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2008.tar.bz2
-[2009]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2009.tar.bz2
-[2010]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2010.tar.bz2
-[2011]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2011.tar.bz2
-[2012]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2012.tar.bz2
-[2013]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2013.tar.bz2
-[2014]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2014.tar.bz2
-[2015]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2015.tar.bz2
-[2016]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2016.tar.bz2
-[2017]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2017.tar.bz2
-[2018]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2018.tar.bz2
-[2019]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2019.tar.bz2
-[2020]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2020.tar.bz2
-[2021]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2021.tar.bz2
-[2022]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2022.tar.bz2
+[1995-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1995.tar.bz2
+[1996-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1996.tar.bz2
+[1997-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1997.tar.bz2
+[1998-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1998.tar.bz2
+[1999-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1999.tar.bz2
+[2000-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2000.tar.bz2
+[2001-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2001.tar.bz2
+[2002-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2002.tar.bz2
+[2003-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2003.tar.bz2
+[2004-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2004.tar.bz2
+[2005-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2005.tar.bz2
+[2006-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2006.tar.bz2
+[2007-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2007.tar.bz2
+[2008-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2008.tar.bz2
+[2009-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2009.tar.bz2
+[2010-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2010.tar.bz2
+[2011-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2011.tar.bz2
+[2012-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2012.tar.bz2
+[2013-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2013.tar.bz2
+[2014-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2014.tar.bz2
+[2015-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2015.tar.bz2
+[2016-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2016.tar.bz2
+[2017-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2017.tar.bz2
+[2018-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2018.tar.bz2
+[2019-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2019.tar.bz2
+[2020-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2020.tar.bz2
+[2021-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2021.tar.bz2
+[2022-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2022.tar.bz2
 
 | Links | Download Size | Uncompressed Size |
 |-|-|-|
