@@ -82,7 +82,7 @@ Other data products can be downloaded and extracted similarly. See the [Download
 
 ## Organization
 
-The data directory is organized as follows:
+The data directory, when populated, is organized as follows:
 ```
 data/
 ├── meta/                   # metadata
@@ -92,13 +92,13 @@ data/
 └── daily/                  # daily time series
 ```
 
-The file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) is contained in the repo and describes the NEXRAD stations. 
+The file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) is included in the repo and describes the NEXRAD stations.
 
 The [`schemas/`](schemas/) directory has data schemas using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/).
 
 ## Documentation
 
-Please visit the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/).
+Please visit the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/) to read about the data fields, formats, and other details.
 
 ## Download Links
 
@@ -155,3 +155,22 @@ options:
   --force               Overwrite existing files.
   --mirror {zenodo,umass}
                         Which mirror to download from (default: zenodo)
+
+# Information
+
+The Dark Ecology Dataset is provided under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license. Please cite the following paper if you use this dataset:
+
+Read about the [Dark Ecology Project](https://darkecology.github.io/) at the University of Massachusetts Amherst and Cornell Lab of Ornithology.
+
+If you use this dataset, please cite the following paper:
+```
+Daniel Sheldon, Kevin Winner, Iman Deznabi, Garrett Bernstein, Pankaj Bhambani, Tsung-Yu Lin, 
+Peter Desmet, Adriaan M. Dokter, Kyle G. Horton, Cecilia Nilsson, Benjamin M. Van Doren, 
+Andrew Farnsworth, Frank A. La Sorte, and Subhransu Maji. 
+Measurements of Aerial Biomass in US Weather Radar from 1995 to 2022. 
+https://darkecology.github.io/dataset, 2023
+```
+
+The data files are archived on [Zenodo](https://zenodo.org/communities/darkecology) under the following records:
+- Time series data (daily, 5-minute, scan-level): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266)
+- Profile data (by year): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214), [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345210.svg)](https://doi.org/10.5281/zenodo.13345210), [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206), [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345204.svg)](https://doi.org/10.5281/zenodo.13345204), [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345202.svg)](https://doi.org/10.5281/zenodo.13345202), [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345174.svg)](https://doi.org/10.5281/zenodo.13345174) 
