@@ -78,13 +78,23 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
    ``` 
 4. Open `notebooks/quick_start.ipynb` to explore the data.
 
-Other data products can be downloaded and extracted similarly. The script `scripts/download.py` can be used to automate downloading and extraction. 
+Other data products can be downloaded and extracted similarly. 
 
-## Download Links
+A Python script is provided to automate downloading and extraction if desired. Here are some example commands:
+```bash
+python scripts/download.py --daily # daily time series
+python scripts/download.py --daily --5min --scans # all time series
+python scripts/download.py --profiles 2010,2015-2017 # selected profiles
+python scripts/download.py --all # all data (very long!)
+```
+
+The script `scripts/download.py` can be used to automate downloading and extraction. 
+
+## Downloads
 
 Data files can be downloaded from either Zenodo or UMass.
 
-### Time Series
+### Time Series Data
 
 | Data | Filename | Size | Uncompressed Size | Download Links |
 |-|-|-|-|-|
@@ -92,12 +102,37 @@ Data files can be downloaded from either Zenodo or UMass.
 | 5-minute time series | 5min.tar.bz2 | 14G | 54G | [[zenodo]][5min] [[umass]][5min-um] |
 | Scan-level time series | scans.tar.bz2 | 11G | 35G | [[zenodo]][scans] [[umass]][scans-um] |
 
-### Profiles
+### Profile Data
 
-Profiles are organized by year. Files are named `profiles_YYYY.tar.bz2` where `YYYY` is the four-digit year and range in size from about 5G to 9G (and about 25G to 50G after decompression).
+Profiles data is the most detailed data, and is organized by year. Files are named `profiles_YYYY.tar.bz2` where `YYYY` is the four-digit year and range in size from about 5G to 9G (and about 25G to 50G after decompression).
 
 | Profile Download Links - Zenodo | Profile Download Links - UMass |
 |--------|-------|
 | [1995][] [1996][] [1997][] [1998][] [1999][] <br/> [2000][] [2001][] [2002][] [2003][] [2004][] <br/> [2005][] [2006][] [2007][] [2008][] [2009][] <br/> [2010][] [2011][] [2012][] [2013][] [2014][] <br/> [2015][] [2016][] [2017][] [2018][] [2019][] <br/> [2020][] [2021][] [2022][] | [1995][1995-um] [1996][1996-um] [1997][1997-um] [1998][1998-um] [1999][1999-um] <br/> [2000][2000-um] [2001][2001-um] [2002][2002-um] [2003][2003-um] [2004][2004-um] <br/> [2005][2005-um] [2006][2006-um] [2007][2007-um] [2008][2008-um] [2009][2009-um] <br/> [2010][2010-um] [2011][2011-um] [2012][2012-um] [2013][2013-um] [2014][2014-um] <br/> [2015][2015-um] [2016][2016-um] [2017][2017-um] [2018][2018-um] [2019][2019-um] <br/> [2020][2020-um] [2021][2021-um] [2022][2022-um] |
 
 Note: one year worth of profile data includes millions of individual files and may take a long time to extract.
+
+## Download Script
+
+The download script (`scripts/download.py`) has the following usage:
+
+```
+usage: download.py [-h] [--out OUT] [--all] [--profiles PROFILES] [--scans] [--5min] [--daily] [--no-extract]
+                   [--delete-archives] [--dry-run] [--force] [--mirror {zenodo,umass}]
+
+Download and optionally extract Dark Ecology dataset archives
+
+options:
+  -h, --help            show this help message and exit
+  --out OUT             Output directory (default: data)
+  --all                 Download all known items (may be very large)
+  --profiles PROFILES   Comma-separated years and ranges to download, e.g. '2012' or '2012,2014,2016' or '2012-2022'
+  --scans               Download scans archive
+  --5min                Download 5-minute archive
+  --daily               Download daily archive
+  --no-extract          Don't extract .tar.bz2 archives after download
+  --delete-archives     Delete .tar.bz2 archives after extraction (default: keep)
+  --dry-run             Show which URLs would be downloaded and exit (no network activity)
+  --force               Overwrite existing files.
+  --mirror {zenodo,umass}
+                        Which mirror to download from (default: zenodo)
