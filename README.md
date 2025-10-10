@@ -78,11 +78,19 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
    ``` 
 4. Open `notebooks/quick_start.ipynb` to explore the data.
 
-Other data products can be downloaded and extracted similarly. Or see the [Download Script](#download-script) below to automate the process.
+Other data products can be downloaded and extracted similarly. See the [Download Links](#download-links) below as well as the [Download Script](#download-script), which can automate the process.
+
+## Documentation, Metadata, and Schemas
+
+Please visit the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/) to read about the data.
+
+The file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) provides metadata about the NEXRAD radar stations used in the dataset.
+
+Schemas for the data files are provided in the [`schemas/`](schemas/) directory. These use the [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/) format.
 
 ## Download Links
 
-Data files can be downloaded from either Zenodo or UMass.
+Data files can be downloaded from either Zenodo or UMass using the links below.
 
 ### Time Series Data
 
@@ -100,7 +108,7 @@ Profile data is organized by year with files named like `profiles_1999.tar.bz2`.
 |--------|-------|
 | [1995][] [1996][] [1997][] [1998][] [1999][] <br/> [2000][] [2001][] [2002][] [2003][] [2004][] <br/> [2005][] [2006][] [2007][] [2008][] [2009][] <br/> [2010][] [2011][] [2012][] [2013][] [2014][] <br/> [2015][] [2016][] [2017][] [2018][] [2019][] <br/> [2020][] [2021][] [2022][] | [1995][1995-um] [1996][1996-um] [1997][1997-um] [1998][1998-um] [1999][1999-um] <br/> [2000][2000-um] [2001][2001-um] [2002][2002-um] [2003][2003-um] [2004][2004-um] <br/> [2005][2005-um] [2006][2006-um] [2007][2007-um] [2008][2008-um] [2009][2009-um] <br/> [2010][2010-um] [2011][2011-um] [2012][2012-um] [2013][2013-um] [2014][2014-um] <br/> [2015][2015-um] [2016][2016-um] [2017][2017-um] [2018][2018-um] [2019][2019-um] <br/> [2020][2020-um] [2021][2021-um] [2022][2022-um] |
 
-**Note**: one year worth of profile data includes millions of individual files and may take a long time to extract.
+**Note**: Each year of profile data includes millions files and may take hours to extract.
 
 ## Download Script
 
