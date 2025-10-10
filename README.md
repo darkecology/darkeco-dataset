@@ -117,7 +117,7 @@ Data files can be downloaded from either Zenodo or UMass using the links below.
 
 Profile data is organized by year with files named like `profiles_1999.tar.bz2`. Download sizes are 5G-9G each and uncompress to about 25G-50G each.
 
-| Profile Download Links - Zenodo | Profile Download Links - UMass |
+| Download Links - Zenodo | Download Links - UMass |
 |--------|-------|
 | [1995][] [1996][] [1997][] [1998][] [1999][] <br/> [2000][] [2001][] [2002][] [2003][] [2004][] <br/> [2005][] [2006][] [2007][] [2008][] [2009][] <br/> [2010][] [2011][] [2012][] [2013][] [2014][] <br/> [2015][] [2016][] [2017][] [2018][] [2019][] <br/> [2020][] [2021][] [2022][] | [1995][1995-um] [1996][1996-um] [1997][1997-um] [1998][1998-um] [1999][1999-um] <br/> [2000][2000-um] [2001][2001-um] [2002][2002-um] [2003][2003-um] [2004][2004-um] <br/> [2005][2005-um] [2006][2006-um] [2007][2007-um] [2008][2008-um] [2009][2009-um] <br/> [2010][2010-um] [2011][2011-um] [2012][2012-um] [2013][2013-um] [2014][2014-um] <br/> [2015][2015-um] [2016][2016-um] [2017][2017-um] [2018][2018-um] [2019][2019-um] <br/> [2020][2020-um] [2021][2021-um] [2022][2022-um] |
 
@@ -158,7 +158,7 @@ options:
                         Which mirror to download from (default: zenodo)
 ```
 
-# Project Information and Citation
+# Information and Citation
 
 The Dark Ecology Dataset is provided under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
@@ -174,7 +174,7 @@ Measurements of Aerial Biomass in US Weather Radar from 1995 to 2022.
 https://darkecology.github.io/dataset, 2023
 ```
 
-Please also cite the official zenodo records for the data files you use:
+Please also cite the zenodo records for the data files you use:
 - Time series data (daily, 5-minute, scan-level): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266)
 - Profile data: 
   - 2020-2025: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214)
