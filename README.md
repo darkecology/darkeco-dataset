@@ -1,29 +1,48 @@
 # Dark Ecology Dataset
 
-This repository provides metadata and schemas for the **Dark Ecology Dataset**, which contains radar-based ecological observations. The data itself is hosted on [Zenodo](#) and must be downloaded separately.
+This is the repository for the Dark Ecology Dataset. It provides the folder structure, metadata, and schemas. The data files need to be downloaded and extracted into the `data/` directory.
 
-## Dataset Structure
+## Quick Start
 
-The dataset consists of the following directories:
+## Download Links
 
-- **profiles/** – Yearly profile data
-- **scan/** – Scan-level data (`scan.tar.bz2`)
-- **5min/** – 5-minute aggregated data (`5min.tar.bz2`)
-- **daily/** – Daily aggregated data (`daily.tar.bz2`)
-- **meta/** – Metadata files (e.g., station information)
+[5min]: https://zenodo.org/records/13345266/files/5min.tar.bz2
+[daily]: https://zenodo.org/records/13345266/files/daily.tar.bz2
+[scans]: https://zenodo.org/records/13345266/files/scans.tar.bz2
 
-Each dataset follows a defined schema, available in:
-- `schemas/profile.schema.json`
-- `schemas/scan.schema.json`
-- `schemas/5min.schema.json`
-- `schemas/daily.schema.json`
+[2022]: https://zenodo.org/records/13345214/files/profiles_2022.tar.bz2
+[2021]: https://zenodo.org/records/13345214/files/profiles_2021.tar.bz2
+[2020]: https://zenodo.org/records/13345214/files/profiles_2020.tar.bz2
+[2019]: https://zenodo.org/records/13345210/files/profiles_2019.tar.bz2
+[2018]: https://zenodo.org/records/13345210/files/profiles_2018.tar.bz2
+[2017]: https://zenodo.org/records/13345210/files/profiles_2017.tar.bz2
+[2016]: https://zenodo.org/records/13345210/files/profiles_2016.tar.bz2
+[2015]: https://zenodo.org/records/13345210/files/profiles_2015.tar.bz2
+[2014]: https://zenodo.org/records/13345206/files/profiles_2014.tar.bz2
+[2013]: https://zenodo.org/records/13345206/files/profiles_2013.tar.bz2
+[2012]: https://zenodo.org/records/13345206/files/profiles_2012.tar.bz2
+[2011]: https://zenodo.org/records/13345206/files/profiles_2011.tar.bz2
+[2010]: https://zenodo.org/records/13345206/files/profiles_2010.tar.bz2
+[2009]: https://zenodo.org/records/13345204/files/profiles_2009.tar.bz2
+[2008]: https://zenodo.org/records/13345204/files/profiles_2008.tar.bz2
+[2007]: https://zenodo.org/records/13345204/files/profiles_2007.tar.bz2
+[2006]: https://zenodo.org/records/13345204/files/profiles_2006.tar.bz2
+[2005]: https://zenodo.org/records/13345204/files/profiles_2005.tar.bz2
+[2004]: https://zenodo.org/records/13345202/files/profiles_2004.tar.bz2
+[2003]: https://zenodo.org/records/13345202/files/profiles_2003.tar.bz2
+[2002]: https://zenodo.org/records/13345202/files/profiles_2002.tar.bz2
+[2001]: https://zenodo.org/records/13345202/files/profiles_2001.tar.bz2
+[2000]: https://zenodo.org/records/13345202/files/profiles_2000.tar.bz2
+[1999]: https://zenodo.org/records/13345174/files/profiles_1999.tar.bz2
+[1998]: https://zenodo.org/records/13345174/files/profiles_1998.tar.bz2
+[1997]: https://zenodo.org/records/13345174/files/profiles_1997.tar.bz2
+[1996]: https://zenodo.org/records/13345174/files/profiles_1996.tar.bz2
+[1995]: https://zenodo.org/records/13345174/files/profiles_1995.tar.bz2
 
-## Usage
 
-1. Download the necessary `.tar.bz2` files from [Zenodo](#).
-2. Extract them into a common root directory.
-3. Use the provided schemas for validation.
-
-## License
-
-The dataset is released under **CC-BY 4.0**. See [`LICENSE`](LICENSE) for details.
+| Links | Download Size | Uncompressed Size |
+|-|-|-|
+| Profiles: [1995][] [1996][] [1997][] [1998][] [1999][] [2000][] [2001][] <br/>  [2002][] [2003][] [2004][] [2005][] [2006][] [2007][] [2008][] [2009][] <br/> [2010][] [2011][] [2012][] [2013][] [2014][] [2015][] [2016][] [2017][] <br/> [2018][] [2019][] [2020][] [2021][] [2022][] | 5--10G each | 25--50G each| 
+| [Scan-level time series][scans] | 11G | 35G | 
+| [5-minute time series][5min] | 14G | 54G |
+| [Daily time series][daily] | 142M | 457M |
