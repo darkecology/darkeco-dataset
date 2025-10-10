@@ -93,18 +93,18 @@ data/
 └── daily/                  # daily time series
 ```
 
-The final four folders correspond to the four main data products:
+The main subfolders correspond to the four data products:
 
 * **Profile data**: Vertical profiles of biological activity for each radar scan. The most detailed data.
 * **Scan-level time series**: Time series of biological activity for each radar station at irregular time intervals of 4-10 minutes corresponding to original radar scans.
 * **5-minute time series**: Time series of biological activity for each radar station at 5-minute time intervals.
 * **Daily time series**: Time series of biological activity for each radar station at daily time step. 
 
-See the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/) for details of the data.
+See the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/) for details of these data products.
 
-The file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) is included in this repo and describes the NEXRAD stations. All other files in the data folder must be downloaded and extracted separately.
+The file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) is included in this repo and describes the NEXRAD stations. All other data files must be downloaded and extracted separately.
 
-The [`schemas/`](schemas/) directory has data schemas for the four main data products using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/).
+The [`schemas/`](schemas/) directory has data schemas for each data product using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/).
 
 ## Download Links
 
