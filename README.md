@@ -65,9 +65,20 @@
 [2022-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2022.tar.bz2
 
 # Dark Ecology Dataset
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345210.svg)](https://doi.org/10.5281/zenodo.13345210) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345204.svg)](https://doi.org/10.5281/zenodo.13345204) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345202.svg)](https://doi.org/10.5281/zenodo.13345202) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345174.svg)](https://doi.org/10.5281/zenodo.13345174) 
+
+[**Organization**](#organization)
+| [**Downloads**](#downloads)
+| [**Citation**](#citation)
+| [**Documentation**](https://darkecology.github.io/dataset/)
+
+
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345210.svg)](https://doi.org/10.5281/zenodo.13345210) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345204.svg)](https://doi.org/10.5281/zenodo.13345204) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345202.svg)](https://doi.org/10.5281/zenodo.13345202) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345174.svg)](https://doi.org/10.5281/zenodo.13345174)  -->
 
-This repository provides the folder structure and supporting files for the Dark Ecology Dataset. The data files need to be downloaded and extracted into the `data/` directory.
+## Overview
+
+The [Dark Ecology Dataset](https://darkecology.github.io/dataset/) is an open dataset of historical bird migration activity in every US weather radar scan from 1995 to 2022. This repository provides the folder structure and supporting files for the Dark Ecology Dataset. The data files are stored on [zenodo](https://zenodo.org/) and mirrored at UMass, and need to be downloaded separately and extracted into the `data/` directory.
 
 ## Quick Start
 
@@ -79,7 +90,7 @@ This repository provides the folder structure and supporting files for the Dark 
    ``` 
 4. Open `notebooks/quick_start.ipynb` to explore the data.
 
-Other data products can be downloaded and extracted similarly. See the [Download Links](#download-links) below as well as the [Download Script](#download-script), which can automate the process.
+Other data products can be downloaded and extracted similarly. See the [downloads](#downloads) section below for download links and a [download script](#download-script).
 
 ## Organization
 
@@ -93,20 +104,16 @@ data/
 └── daily/                  # daily time series
 ```
 
-The main subfolders correspond to the four data products:
+The `meta` subfolder is included in the repo and contains [NEXRAD station metadata](data/meta/nexrad-stations.csv). All other data files must be downloaded separately. The other subfolders correspond to the four types of data products:
 
-* **Profile data**: Vertical profiles of biological activity for each radar scan. The most detailed data.
-* **Scan-level time series**: Time series of biological activity for each radar station at irregular time intervals of 4-10 minutes corresponding to original radar scans.
-* **5-minute time series**: Time series of biological activity for each radar station at 5-minute time intervals.
-* **Daily time series**: Time series of biological activity for each radar station at daily time step. 
+* **[Profile data](https://darkecology.github.io/dataset/profiles/)**: Vertical profiles of biological activity for each radar scan. The most detailed data.
+* **[Scan-level time series](https://darkecology.github.io/dataset/time-series/#scan-level-time-series)**: Time series of biological activity for each radar station at irregular time intervals of 4-10 minutes corresponding to original radar scans.
+* **[5-minute time series](https://darkecology.github.io/dataset/time-series/#5-minute-time-series)**: Time series of biological activity for each radar station at 5-minute time intervals.
+* **[Daily time series](https://darkecology.github.io/dataset/daily/)**: Time series of biological activity for each radar station at daily time step. 
 
-See the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/) for details of these data products.
+Read the [documentation](https://darkecology.github.io/dataset/) for details of these data products. In addition to `data`, the repo has other top-level folders for [`scripts`](scripts) and [`schemas`](schemas), the latter of which has data schemas using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/).
 
-The file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) is included in this repo and describes the NEXRAD stations. All other data files must be downloaded and extracted separately.
-
-The [`schemas/`](schemas/) directory has data schemas for each data product using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/).
-
-## Download Links
+## Downloads
 
 Data files can be downloaded from either Zenodo or UMass using the links below.
 
@@ -120,15 +127,15 @@ Data files can be downloaded from either Zenodo or UMass using the links below.
 
 ### Profile Data
 
-Profile data is organized by year with files named like `profiles_1999.tar.bz2`. Download sizes are 5G-9G each and uncompress to about 25G-50G each.
+Profile data is organized by year with filenames like `profiles_1999.tar.bz2`. Download sizes are 5G-9G for each year and uncompress to about 25G-50G.
 
 | Download Links - Zenodo | Download Links - UMass |
 |--------|-------|
 | [1995][] [1996][] [1997][] [1998][] [1999][] <br/> [2000][] [2001][] [2002][] [2003][] [2004][] <br/> [2005][] [2006][] [2007][] [2008][] [2009][] <br/> [2010][] [2011][] [2012][] [2013][] [2014][] <br/> [2015][] [2016][] [2017][] [2018][] [2019][] <br/> [2020][] [2021][] [2022][] | [1995][1995-um] [1996][1996-um] [1997][1997-um] [1998][1998-um] [1999][1999-um] <br/> [2000][2000-um] [2001][2001-um] [2002][2002-um] [2003][2003-um] [2004][2004-um] <br/> [2005][2005-um] [2006][2006-um] [2007][2007-um] [2008][2008-um] [2009][2009-um] <br/> [2010][2010-um] [2011][2011-um] [2012][2012-um] [2013][2013-um] [2014][2014-um] <br/> [2015][2015-um] [2016][2016-um] [2017][2017-um] [2018][2018-um] [2019][2019-um] <br/> [2020][2020-um] [2021][2021-um] [2022][2022-um] |
 
-**Note**: Each year of profile data includes millions files and may take hours to extract.
+**Note**: Each year of profile data includes millions files and may take over an hour to extract.
 
-## Download Script
+### Download Script
 
 A Python script (`scripts/download.py`) is provided to automate downloading and extraction. Here are some examples:
 
@@ -139,7 +146,7 @@ python scripts/download.py --profiles 2010,2015-2017  # selected profiles
 python scripts/download.py --all                      # all data (very long!)
 ```
 
-The full usage is as follows:
+The full usage is:
 
 ```
 usage: download.py [-h] [--out OUT] [--all] [--profiles PROFILES] [--scans] [--5min] [--daily] [--no-extract]
@@ -163,13 +170,9 @@ options:
                         Which mirror to download from (default: zenodo)
 ```
 
-# Information and Citation
+## Citation
 
-The Dark Ecology Dataset is provided under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license.
-
-Read about the [Dark Ecology Project](https://darkecology.github.io/) at the University of Massachusetts Amherst and Cornell Lab of Ornithology.
-
-If you use this dataset, please cite:
+The [Dark Ecology Project](https://darkecology.github.io/) is a joint effort of the University of Massachusetts Amherst and the Cornell Lab of Ornithology. The dataset is provided under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license. If you use this dataset, please cite:
 
 ```text
 Daniel Sheldon, Kevin Winner, Iman Deznabi, Garrett Bernstein, Pankaj Bhambani, Tsung-Yu Lin, 
@@ -180,11 +183,13 @@ https://darkecology.github.io/dataset, 2023
 ```
 
 Please also cite the zenodo records for the data files you use:
-- Time series data (daily, 5-minute, scan-level): [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266)
-- Profile data: 
-  - 2020-2025: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214)
-  - 2015-2019: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345210.svg)](https://doi.org/10.5281/zenodo.13345210)
-  - 2010-2014: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206)
-  - 2005-2009: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345204.svg)](https://doi.org/10.5281/zenodo.13345204)
-  - 2000-2004: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345202.svg)](https://doi.org/10.5281/zenodo.13345202)
-  - 1995-1999: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345174.svg)](https://doi.org/10.5281/zenodo.13345174) 
+
+| data | record |
+|-|-|
+| Time series data | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266) |
+| Profiles, 2020–2022 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214) |
+| Profiles, 2015-2019 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345210.svg)](https://doi.org/10.5281/zenodo.13345210) |
+| Profiles, 2010-2014 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) |
+| Profiles, 2005-2009 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345204.svg)](https://doi.org/10.5281/zenodo.13345204) |
+| Profiles, 2000-2004 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345202.svg)](https://doi.org/10.5281/zenodo.13345202) |
+| Profiles, 1995-1999 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345174.svg)](https://doi.org/10.5281/zenodo.13345174) |
