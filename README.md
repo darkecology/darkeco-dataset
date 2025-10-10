@@ -78,12 +78,12 @@
 
 ## Overview
 
-The [Dark Ecology Dataset](https://darkecology.github.io/dataset/) is an open dataset of historical bird migration activity in every US weather radar scan from 1995 to 2022. This repository provides a folder structure and supporting files for using the dataset. The data files themselves are hosted on [zenodo](https://zenodo.org/) and mirrored at UMass, and need to be downloaded and extracted into the `data/` directory.
+The [Dark Ecology Dataset](https://darkecology.github.io/dataset/) is an open dataset of historical bird migration activity in every US weather radar scan from 1995 to 2022. This repository provides a folder structure and supporting files for using the dataset. The data files themselves are hosted on [zenodo](https://zenodo.org/) (and mirrored at UMass) and need to be downloaded and extracted into the `data/` directory.
 
 ## Quick Start
 
 1. Clone this repository.
-2. Download the [daily time series][daily] data file and save as `data/daily.tar.bz2`.
+2. Download the [daily time series][daily] data file and save it as `data/daily.tar.bz2`.
 3. Extract the data file:
    ```bash
    cd data
@@ -98,25 +98,25 @@ Other data products can be downloaded and extracted similarly. See the [download
 The data directory, when populated, has this structure:
 ```
 data/
-├── meta/                   # metadata
-├── profiles/               # profile data
-├── scans/                  # scan-level time series
-├── 5min/                   # 5-minute time series
-└── daily/                  # daily time series
+├── meta/           # metadata
+├── profiles/       # profile data
+├── scans/          # scan-level time series
+├── 5min/           # 5-minute time series
+└── daily/          # daily time series
 ```
 
-The `meta` subfolder is distributed with this repo and contains [NEXRAD radar station metadata](data/meta/nexrad-stations.csv). All other data files must be downloaded separately. The remaining four subfolders correspond to the four types of data products:
+The `meta` subfolder is distributed with this repo and contains [NEXRAD radar station metadata](data/meta/nexrad-stations.csv). All other data files must be downloaded separately. The remaining subfolders correspond to the four types of data products:
 
 * **[Profile data](https://darkecology.github.io/dataset/profiles/)**: Vertical profiles of biological activity for each radar scan. The most detailed data.
-* **[Scan-level time series](https://darkecology.github.io/dataset/time-series/#scan-level-time-series)**: Time series of biological activity for each radar station at irregular time intervals of 4-10 minutes corresponding to original radar scans.
+* **[Scan-level time series](https://darkecology.github.io/dataset/time-series/#scan-level-time-series)**: Time series of biological activity for each radar station at irregular time intervals of 4-10 minutes corresponding to the times of the original radar scans.
 * **[5-minute time series](https://darkecology.github.io/dataset/time-series/#5-minute-time-series)**: Time series of biological activity for each radar station at 5-minute time intervals.
-* **[Daily time series](https://darkecology.github.io/dataset/daily/)**: Time series of biological activity for each radar station at daily time step. 
+* **[Daily time series](https://darkecology.github.io/dataset/daily/)**: Time series of biological activity for each radar station at a daily time step. 
 
-Read the [documentation](https://darkecology.github.io/dataset/) for details of these data products. In addition to the `data` folder, the repo has other top-level folders for [`scripts`](scripts) and [`schemas`](schemas), the latter of which has data schemas using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/).
+Read the [documentation](https://darkecology.github.io/dataset/) for details of these data products. In addition to the `data` folder, the repo has top-level folders for [`scripts`](scripts) and [`schemas`](schemas).
 
 ## Downloads
 
-Data files can be downloaded from either Zenodo or UMass. Larger files can take minutes to hours download, so you may prefer one of the archives based on download performance. Time series data files cover the entire time period from 1995-2022, while the raw profile data is distributed by year. 
+Data files can be downloaded from either Zenodo or UMass. Some files can take tens of minutes to hours download, so you may prefer one of the sources based on download performance. Time series data files cover the entire time period from 1995-2022, while the raw profile data is distributed by year. 
 
 ### Time Series Data
 
@@ -128,7 +128,7 @@ Data files can be downloaded from either Zenodo or UMass. Larger files can take 
 
 ### Profile Data
 
-Profile data is organized by year with filenames like `profiles_1999.tar.bz2`. Download sizes are 5G-9G for each year and uncompress to about 25G-50G. Note that in addition to the time required to download these files, each year of profile data includes millions files and may take over an hour to extract.
+Profile data is organized by year with filenames like `profiles_1999.tar.bz2`. Download sizes are 5G-9G for each year and each file uncompresses to about 25G-50G. Note that in addition to the time required to download these files, each year of profile data includes millions files and may take over an hour to extract.
 
 | Download Links - Zenodo | Download Links - UMass |
 |--------|-------|
@@ -136,7 +136,7 @@ Profile data is organized by year with filenames like `profiles_1999.tar.bz2`. D
 
 ### Download Script
 
-A Python script (`scripts/download.py`) is provided to automate downloading and extraction. Here are some examples:
+A Python script (`scripts/download.py`) is provided to automate downloading and extraction for convenience. Here are some examples:
 
 ```bash
 python scripts/download.py --daily                    # daily time series
@@ -169,9 +169,11 @@ options:
                         Which mirror to download from (default: zenodo)
 ```
 
+This script is for convenience. Performance will not exceed and may be slower than downloading and extracting with browser and system utilities.
+
 ## Citation
 
-The [Dark Ecology Project](https://darkecology.github.io/) is a joint effort of the University of Massachusetts Amherst and the Cornell Lab of Ornithology. The dataset is provided under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license. If you use this dataset, please cite:
+The [Dark Ecology Project](https://darkecology.github.io/) is a joint effort of the University of Massachusetts Amherst and the Cornell Lab of Ornithology. The dataset is provided under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license. If you use this dataset, please cite the forthcoming preprint:
 
 ```text
 Daniel Sheldon, Kevin Winner, Iman Deznabi, Garrett Bernstein, Pankaj Bhambani, Tsung-Yu Lin, 
