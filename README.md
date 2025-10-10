@@ -66,9 +66,11 @@
 
 # Dark Ecology Dataset
 
-This is the repository for the Dark Ecology Dataset. It provides the folder structure, metadata, and schemas. The data files need to be downloaded and extracted into the `data/` directory.
+This is the repository for the Dark Ecology Dataset. It provides the folder structure. The data files need to be downloaded and extracted into the `data/` directory.
 
 ## Quick Start
+
+## Metadata and Schemas
 
 1. Clone this repository.
 2. Download the [daily time series][daily] data file (`daily.tar.bz2`) and place it into the `data/` directory.
@@ -80,13 +82,25 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
 
 Other data products can be downloaded and extracted similarly. See the [Download Links](#download-links) below as well as the [Download Script](#download-script), which can automate the process.
 
-## Documentation, Metadata, and Schemas
+## Organization
 
-Please visit the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/) to read about the data.
+The repository is organized as follows:
+```
+data/
+├── meta/                   # metadata
+├── profiles/               # profile data (one directory per year)
+├── scans/                  # scan-level time series
+├── 5min/                   # 5-minute time series
+└── daily/                  # daily time series
+```
 
-The file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) provides metadata about the NEXRAD radar stations used in the dataset.
+The metadata file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) is provided with the repositoty and describes the NEXRAD stations. 
 
-Schemas for the data files are provided in the [`schemas/`](schemas/) directory. These use the [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/) format.
+Schemas are provided in the [`schemas/`](schemas/) directory using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/).
+
+## Documentation
+
+Please visit the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/).
 
 ## Download Links
 
