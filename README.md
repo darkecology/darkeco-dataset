@@ -107,10 +107,10 @@ Profiles data is the most detailed data, and is organized by year. Files are nam
 A Python script (`scripts/download.py`) is provided to automate downloading and extraction. Here are some examples:
 
 ```bash
-python scripts/download.py --daily # daily time series
-python scripts/download.py --daily --5min --scans # all time series
-python scripts/download.py --profiles 2010,2015-2017 # selected profiles
-python scripts/download.py --all # all data (very long!)
+python scripts/download.py --daily                    # daily time series
+python scripts/download.py --daily --5min --scans     # all time series
+python scripts/download.py --profiles 2010,2015-2017  # selected profiles
+python scripts/download.py --all                      # all data (very long!)
 ```
 
 The full usage is as follows:
@@ -119,7 +119,7 @@ The full usage is as follows:
 usage: download.py [-h] [--out OUT] [--all] [--profiles PROFILES] [--scans] [--5min] [--daily] [--no-extract]
                    [--delete-archives] [--dry-run] [--force] [--mirror {zenodo,umass}]
 
-Download and optionally extract Dark Ecology dataset archives
+Download and extract Dark Ecology dataset archives
 
 options:
   -h, --help            show this help message and exit
