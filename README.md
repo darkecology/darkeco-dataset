@@ -180,7 +180,7 @@ Daniel Sheldon, Kevin Winner, Iman Deznabi, Garrett Bernstein, Pankaj Bhambani, 
 Peter Desmet, Adriaan M. Dokter, Kyle G. Horton, Cecilia Nilsson, Benjamin M. Van Doren, 
 Andrew Farnsworth, Frank A. La Sorte, and Subhransu Maji. 
 Measurements of Aerial Biomass in US Weather Radar from 1995 to 2022. 
-https://darkecology.github.io/dataset, 2023
+https://darkecology.github.io/dataset
 ```
 
 Please also cite the zenodo records for data that you use:
