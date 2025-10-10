@@ -67,7 +67,7 @@
 # Dark Ecology Dataset
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345210.svg)](https://doi.org/10.5281/zenodo.13345210) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345204.svg)](https://doi.org/10.5281/zenodo.13345204) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345202.svg)](https://doi.org/10.5281/zenodo.13345202) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345174.svg)](https://doi.org/10.5281/zenodo.13345174)  -->
 
-This is the repository for the Dark Ecology Dataset. It provides the folder structure. The data files need to be downloaded and extracted into the `data/` directory.
+This repository provides the folder structure and supporting files for the Dark Ecology Dataset. The data files need to be downloaded and extracted into the `data/` directory.
 
 ## Quick Start
 
@@ -83,11 +83,11 @@ Other data products can be downloaded and extracted similarly. See the [Download
 
 ## Organization
 
-The data directory, when populated, is organized as follows:
+The data directory, when populated, has this structure:
 ```
 data/
 ├── meta/                   # metadata
-├── profiles/               # profile data (one directory per year)
+├── profiles/               # profile data
 ├── scans/                  # scan-level time series
 ├── 5min/                   # 5-minute time series
 └── daily/                  # daily time series
@@ -95,11 +95,14 @@ data/
 
 The file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) is included in the repo and describes the NEXRAD stations.
 
-The [`schemas/`](schemas/) directory has data schemas using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/).
+The [`schemas/`](schemas/) directory has data schemas using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/) for the four main data products:
 
-## Documentation
+* **Daily time series***: Time series of biological activity for each radar station at daily time step. 
+* **5-minute time series**: Time series of biological activity for each radar station at 5-minute time intervals.
+* **Scan-level time series**: Time series of biological activity for each radar station at irregular time steps of 4-10 minutes corresponding to original radar scans.
+* **Profile data**: Vertical profiles of biological activity for each radar scan. The most detailed data.
 
-Please visit the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/) to read about the data fields, formats, and other details.
+Please visit the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/) to learn about the details of the data.
 
 ## Download Links
 
