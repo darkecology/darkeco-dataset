@@ -70,8 +70,6 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
 
 ## Quick Start
 
-## Metadata and Schemas
-
 1. Clone this repository.
 2. Download the [daily time series][daily] data file (`daily.tar.bz2`) and place it into the `data/` directory.
 3. Extract the data file:
