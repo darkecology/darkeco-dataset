@@ -78,7 +78,7 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
    ``` 
 4. Open `notebooks/quick_start.ipynb` to explore the data.
 
-Other data products can be downloaded and extracted similarly. Or see the [Download Script](#download-script) section below for automating downloading and extraction.
+Other data products can be downloaded and extracted similarly. Or see the [Download Script](#download-script) below to automate the process.
 
 ## Download Links
 
@@ -94,7 +94,7 @@ Data files can be downloaded from either Zenodo or UMass.
 
 ### Profile Data
 
-Profiles data is the most detailed data, and is organized by year. Files are named `profiles_YYYY.tar.bz2` where `YYYY` is the four-digit year and range in size from about 5G to 9G (and about 25G to 50G after decompression).
+Profile data is organized by year with files named like `profiles_1999.tar.bz2`. Download sizes are 5G-9G each and uncompress to about 25G-50G each.
 
 | Profile Download Links - Zenodo | Profile Download Links - UMass |
 |--------|-------|
