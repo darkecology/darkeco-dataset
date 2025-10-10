@@ -81,7 +81,16 @@ This repository provides the folder structure and supporting files for the Dark 
 
 Other data products can be downloaded and extracted similarly. See the [Download Links](#download-links) below as well as the [Download Script](#download-script), which can automate the process.
 
-## Organization
+## Data and Organization
+
+There are four main data products:
+
+* **Daily time series***: Time series of biological activity for each radar station at daily time step. 
+* **5-minute time series**: Time series of biological activity for each radar station at 5-minute time intervals.
+* **Scan-level time series**: Time series of biological activity for each radar station at irregular time steps of 4-10 minutes corresponding to original radar scans.
+* **Profile data**: Vertical profiles of biological activity for each radar scan. The most detailed data.
+
+Please visit the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/) to learn about the details of the data.
 
 The data directory, when populated, has this structure:
 ```
@@ -93,16 +102,9 @@ data/
 └── daily/                  # daily time series
 ```
 
-The file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) is included in the repo and describes the NEXRAD stations.
+The file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) is included in this repo and describes the NEXRAD stations. All other files in the data folder must be downloaded and extracted separately.
 
-The [`schemas/`](schemas/) directory has data schemas using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/) for the four main data products:
-
-* **Daily time series***: Time series of biological activity for each radar station at daily time step. 
-* **5-minute time series**: Time series of biological activity for each radar station at 5-minute time intervals.
-* **Scan-level time series**: Time series of biological activity for each radar station at irregular time steps of 4-10 minutes corresponding to original radar scans.
-* **Profile data**: Vertical profiles of biological activity for each radar scan. The most detailed data.
-
-Please visit the [Dark Ecology Dataset Documentation](https://darkecology.github.io/dataset/) to learn about the details of the data.
+The [`schemas/`](schemas/) directory has data schemas for the four main data products using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/).
 
 ## Download Links
 
