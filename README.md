@@ -1,11 +1,3 @@
-# Dark Ecology Dataset
-
-This is the repository for the Dark Ecology Dataset. It provides the folder structure, metadata, and schemas. The data files need to be downloaded and extracted into the `data/` directory.
-
-## Quick Start
-
-## Download Links
-
 [5min]: https://zenodo.org/records/13345266/files/5min.tar.bz2
 [daily]: https://zenodo.org/records/13345266/files/daily.tar.bz2
 [scans]: https://zenodo.org/records/13345266/files/scans.tar.bz2
@@ -72,6 +64,23 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
 [2021-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2021.tar.bz2
 [2022-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2022.tar.bz2
 
+# Dark Ecology Dataset
+
+This is the repository for the Dark Ecology Dataset. It provides the folder structure, metadata, and schemas. The data files need to be downloaded and extracted into the `data/` directory.
+
+## Quick Start
+
+1. Clone this repository.
+2. Download the [daily time series][daily] data file (`daily.tar.bz2`) and place it into the `data/` directory.
+3. Extract the data file:
+   ```bash
+   tar -xjvf data/daily.tar.bz2 -C data/
+   ``` 
+4. Open `notebooks/quick_start.ipynb` to explore the data.
+
+Other data products can be downloaded and extracted similarly. The script `scripts/download.py` can be used to automate downloading and extraction. 
+
+## Download Links
 
 Data files can be downloaded from either Zenodo or UMass.
 
@@ -79,9 +88,9 @@ Data files can be downloaded from either Zenodo or UMass.
 
 | Data | Filename | Size | Uncompressed Size | Download Links |
 |-|-|-|-|-|
-| Scan-level time series | scans.tar.bz2 | 11G | 35G | [[zenodo]][scans] [[umass]][scans-um] |
-| 5-minute time series | 5min.tar.bz2 | 14G | 54G | [[zenodo]][5min] [[umass]][5min-um] |
 | Daily time series | daily.tar.bz2 | 142M | 457M | [[zenodo]][daily] [[umass]][daily-um] |
+| 5-minute time series | 5min.tar.bz2 | 14G | 54G | [[zenodo]][5min] [[umass]][5min-um] |
+| Scan-level time series | scans.tar.bz2 | 11G | 35G | [[zenodo]][scans] [[umass]][scans-um] |
 
 ### Profiles
 
