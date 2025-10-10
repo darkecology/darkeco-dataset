@@ -4,7 +4,7 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
 
 ## Quick Start
 
-## Download Links (Zenodo)
+## Download Links
 
 [5min]: https://zenodo.org/records/13345266/files/5min.tar.bz2
 [daily]: https://zenodo.org/records/13345266/files/daily.tar.bz2
@@ -73,18 +73,16 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
 [2022-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2022.tar.bz2
 
 
-## Time Series Data Downloads
+Data files can be downloaded from either Zenodo or UMass.
 
-| Data | Filename | Size | Uncompressed | Download |
+| Data | Filename | Size | Uncompressed Size | Download Links |
 |-|-|-|-|-|
-| Scan-level time series | scans.tar.bz2 | 11G | 35G | [zenodo][scans] [umass][scans-um] |
-| 5-minute time series | 5min.tar.bz2 | 14G | 54G | [zenodo][5min] [umass][5min-um] |
-| Daily time series | daily.tar.bz2 | 142M | 457M | [zenodo][daily] [umass][daily-um] |
+| Scan-level time series | scans.tar.bz2 | 11G | 35G | [[zenodo]][scans], [[umass]][scans-um] |
+| 5-minute time series | 5min.tar.bz2 | 14G | 54G | [[zenodo]][5min], [[umass]][5min-um] |
+| Daily time series | daily.tar.bz2 | 142M | 457M | [[zenodo]][daily], [[umass]][daily-um] |
 
 
-## Profile Data Downloads
-
-Profile data files for each years are 5—10G compressed, and 25—50G uncompressed. The archive for each year  contain millions of files each and may take hours to extract.
+The profile data files are named `profiles_YYYY.tar.bz2` where `YYYY` is the four-digit year. Files range from about 5G to 9G and 25G to 50G uncompressed. Each archive contains millions of individual files and may take hours to extract. Download links from Zenodo and UMass are in the table below.
 
 | Zenodo | UMass |
 |--------|-------|
