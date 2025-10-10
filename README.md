@@ -65,6 +65,7 @@
 [2022-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2022.tar.bz2
 
 # Dark Ecology Dataset
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345210.svg)](https://doi.org/10.5281/zenodo.13345210) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345204.svg)](https://doi.org/10.5281/zenodo.13345204) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345202.svg)](https://doi.org/10.5281/zenodo.13345202) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345174.svg)](https://doi.org/10.5281/zenodo.13345174) 
 
 This is the repository for the Dark Ecology Dataset. It provides the folder structure. The data files need to be downloaded and extracted into the `data/` directory.
 
@@ -159,11 +160,11 @@ options:
 
 # Information
 
-The Dark Ecology Dataset is provided under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license. Please cite the following paper if you use this dataset:
+The Dark Ecology Dataset is provided under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
 Read about the [Dark Ecology Project](https://darkecology.github.io/) at the University of Massachusetts Amherst and Cornell Lab of Ornithology.
 
-If you use this dataset, please cite the following paper:
+If you use this dataset, please cite:
 
 ```text
 Daniel Sheldon, Kevin Winner, Iman Deznabi, Garrett Bernstein, Pankaj Bhambani, Tsung-Yu Lin, 
