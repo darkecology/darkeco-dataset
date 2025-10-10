@@ -85,7 +85,7 @@ Data files can be downloaded from either Zenodo or UMass.
 
 ### Profiles
 
-Profiles are organized by year. Files are named `profiles_YYYY.tar.bz2` where `YYYY` is the four-digit year and range from about 5G to 9G and 25G to 50G uncompressed.
+Profiles are organized by year. Files are named `profiles_YYYY.tar.bz2` where `YYYY` is the four-digit year and range in size from about 5G to 9G (and about 25G to 50G after decompression).
 
 | Profile Download Links - Zenodo | Profile Download Links - UMass |
 |--------|-------|
