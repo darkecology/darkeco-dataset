@@ -155,6 +155,7 @@ options:
   --force               Overwrite existing files.
   --mirror {zenodo,umass}
                         Which mirror to download from (default: zenodo)
+```
 
 # Information
 
@@ -163,7 +164,8 @@ The Dark Ecology Dataset is provided under a [CC-BY-4.0](https://creativecommons
 Read about the [Dark Ecology Project](https://darkecology.github.io/) at the University of Massachusetts Amherst and Cornell Lab of Ornithology.
 
 If you use this dataset, please cite the following paper:
-```
+
+```text
 Daniel Sheldon, Kevin Winner, Iman Deznabi, Garrett Bernstein, Pankaj Bhambani, Tsung-Yu Lin, 
 Peter Desmet, Adriaan M. Dokter, Kyle G. Horton, Cecilia Nilsson, Benjamin M. Van Doren, 
 Andrew Farnsworth, Frank A. La Sorte, and Subhransu Maji. 
