@@ -82,7 +82,7 @@ Other data products can be downloaded and extracted similarly. See the [Download
 
 ## Organization
 
-The repository is organized as follows:
+The data directory is organized as follows:
 ```
 data/
 ├── meta/                   # metadata
@@ -92,9 +92,9 @@ data/
 └── daily/                  # daily time series
 ```
 
-The metadata file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) is provided with the repositoty and describes the NEXRAD stations. 
+The file [`data/meta/nexrad-stations.csv`](data/meta/nexrad-stations.csv) is contained in the repo and describes the NEXRAD stations. 
 
-Schemas are provided in the [`schemas/`](schemas/) directory using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/).
+The [`schemas/`](schemas/) directory has data schemas using [Frictionless Table Schema](https://specs.frictionlessdata.io//table-schema/).
 
 ## Documentation
 
