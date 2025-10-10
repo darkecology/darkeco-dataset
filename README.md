@@ -128,7 +128,7 @@ Data files can be downloaded from either Zenodo or UMass. Some files can take te
 
 ### Profile Data
 
-Profile data is organized by year with filenames like `profiles_1999.tar.bz2`. Download sizes are 5G-9G for each year and each file uncompresses to about 25G-50G. Note that in addition to the time required to download these files, each year of profile data includes millions files and may take over an hour to extract.
+Profile data is organized by year with filenames like `profiles_1999.tar.bz2`. For each year, the archive file size is 5G-9G and it uncompresses to 25G-50G with millions of individual files. Because of the very large number of files, archives may take over an hour to extract after they are downloaded.
 
 | Download Links - Zenodo | Download Links - UMass |
 |--------|-------|
