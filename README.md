@@ -78,7 +78,7 @@
 
 ## Overview
 
-The [Dark Ecology Dataset](https://darkecology.github.io/dataset/) is an open dataset of historical bird migration activity in every US weather radar scan from 1995 to 2022. This repository provides the folder structure and supporting files for the dataset. The data files themselves are hosted on [zenodo](https://zenodo.org/) and mirrored at UMass, and need to be downloaded and extracted into the `data/` directory.
+The [Dark Ecology Dataset](https://darkecology.github.io/dataset/) is an open dataset of historical bird migration activity in every US weather radar scan from 1995 to 2022. This repository provides a folder structure and supporting files for using the dataset. The data files themselves are hosted on [zenodo](https://zenodo.org/) and mirrored at UMass, and need to be downloaded and extracted into the `data/` directory.
 
 ## Quick Start
 
@@ -105,7 +105,7 @@ data/
 └── daily/                  # daily time series
 ```
 
-The `meta` subfolder is distributed with this repo and contains [NEXRAD radar station metadata](data/meta/nexrad-stations.csv). All other data files must be downloaded separately. The other subfolders correspond to the four types of data products:
+The `meta` subfolder is distributed with this repo and contains [NEXRAD radar station metadata](data/meta/nexrad-stations.csv). All other data files must be downloaded separately. The remaining four subfolders correspond to the four types of data products:
 
 * **[Profile data](https://darkecology.github.io/dataset/profiles/)**: Vertical profiles of biological activity for each radar scan. The most detailed data.
 * **[Scan-level time series](https://darkecology.github.io/dataset/time-series/#scan-level-time-series)**: Time series of biological activity for each radar station at irregular time intervals of 4-10 minutes corresponding to original radar scans.
@@ -181,7 +181,7 @@ Measurements of Aerial Biomass in US Weather Radar from 1995 to 2022.
 https://darkecology.github.io/dataset, 2023
 ```
 
-Please also cite the zenodo records for the data files you use:
+Please also cite the zenodo records for data that you use:
 
 | data | record |
 |-|-|
