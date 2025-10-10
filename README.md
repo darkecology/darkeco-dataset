@@ -120,8 +120,8 @@ Data files can be downloaded from either Zenodo or UMass. Some files can take te
 
 ### Time Series Data
 
-| Data | Filename | Size | Uncompressed Size | Download Links |
-|-|-|-|-|-|
+| Data | Filename | Size | Uncompressed <br/> Size | Download Links |
+|:-----:|:-----:|:--:|:--:|:----:|
 | Daily time series | daily.tar.bz2 | 142M | 457M | [[zenodo]][daily] [[umass]][daily-um] |
 | 5-minute time series | 5min.tar.bz2 | 14G | 54G | [[zenodo]][5min] [[umass]][5min-um] |
 | Scan-level time series | scans.tar.bz2 | 11G | 35G | [[zenodo]][scans] [[umass]][scans-um] |
