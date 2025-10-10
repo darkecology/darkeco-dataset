@@ -78,19 +78,9 @@ This is the repository for the Dark Ecology Dataset. It provides the folder stru
    ``` 
 4. Open `notebooks/quick_start.ipynb` to explore the data.
 
-Other data products can be downloaded and extracted similarly. 
+Other data products can be downloaded and extracted similarly. Or see the [Download Script](#download-script) section below for automating downloading and extraction.
 
-A Python script is provided to automate downloading and extraction if desired. Here are some example commands:
-```bash
-python scripts/download.py --daily # daily time series
-python scripts/download.py --daily --5min --scans # all time series
-python scripts/download.py --profiles 2010,2015-2017 # selected profiles
-python scripts/download.py --all # all data (very long!)
-```
-
-The script `scripts/download.py` can be used to automate downloading and extraction. 
-
-## Downloads
+## Download Links
 
 Data files can be downloaded from either Zenodo or UMass.
 
@@ -110,11 +100,20 @@ Profiles data is the most detailed data, and is organized by year. Files are nam
 |--------|-------|
 | [1995][] [1996][] [1997][] [1998][] [1999][] <br/> [2000][] [2001][] [2002][] [2003][] [2004][] <br/> [2005][] [2006][] [2007][] [2008][] [2009][] <br/> [2010][] [2011][] [2012][] [2013][] [2014][] <br/> [2015][] [2016][] [2017][] [2018][] [2019][] <br/> [2020][] [2021][] [2022][] | [1995][1995-um] [1996][1996-um] [1997][1997-um] [1998][1998-um] [1999][1999-um] <br/> [2000][2000-um] [2001][2001-um] [2002][2002-um] [2003][2003-um] [2004][2004-um] <br/> [2005][2005-um] [2006][2006-um] [2007][2007-um] [2008][2008-um] [2009][2009-um] <br/> [2010][2010-um] [2011][2011-um] [2012][2012-um] [2013][2013-um] [2014][2014-um] <br/> [2015][2015-um] [2016][2016-um] [2017][2017-um] [2018][2018-um] [2019][2019-um] <br/> [2020][2020-um] [2021][2021-um] [2022][2022-um] |
 
-Note: one year worth of profile data includes millions of individual files and may take a long time to extract.
+**Note**: one year worth of profile data includes millions of individual files and may take a long time to extract.
 
 ## Download Script
 
-The download script (`scripts/download.py`) has the following usage:
+A Python script (`scripts/download.py`) is provided to automate downloading and extraction. Here are some examples:
+
+```bash
+python scripts/download.py --daily # daily time series
+python scripts/download.py --daily --5min --scans # all time series
+python scripts/download.py --profiles 2010,2015-2017 # selected profiles
+python scripts/download.py --all # all data (very long!)
+```
+
+The full usage is as follows:
 
 ```
 usage: download.py [-h] [--out OUT] [--all] [--profiles PROFILES] [--scans] [--5min] [--daily] [--no-extract]
