@@ -64,7 +64,7 @@
 [2021-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2021.tar.bz2
 [2022-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2022.tar.bz2
 
-# Dark Ecology Dataset
+# The Dark Ecology Dataset
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345210.svg)](https://doi.org/10.5281/zenodo.13345210) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345204.svg)](https://doi.org/10.5281/zenodo.13345204) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345202.svg)](https://doi.org/10.5281/zenodo.13345202) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345174.svg)](https://doi.org/10.5281/zenodo.13345174) 
 
@@ -116,7 +116,7 @@ Read the [documentation](https://darkecology.github.io/dataset/) for details of 
 
 ## Downloads
 
-Data files can be downloaded from either Zenodo or UMass. Some files can take tens of minutes to hours download, so you may prefer one of the sources based on download performance. Time series data files cover the entire time period from 1995-2022, while the raw profile data is distributed by year. 
+Data files can be downloaded from either Zenodo or UMass. Some files can take more than a hour to download, so you may prefer one of the sources based on download performance. Time series data files cover the entire time period from 1995-2022, while the raw profile data is distributed by year. 
 
 ### Time Series Data
 
@@ -128,7 +128,7 @@ Data files can be downloaded from either Zenodo or UMass. Some files can take te
 
 ### Profile Data
 
-Profile data is organized by year with filenames like `profiles_1999.tar.bz2`. For each year, the archive file size is 5G-9G and it uncompresses to 25G-50G with millions of individual files. Because of the very large number of files, archives may take over an hour to extract after they are downloaded.
+Profile data is organized by year with filenames like `profiles_1999.tar.bz2`. For each year, the archive file size is 5G-9G and it uncompresses to a directory tree with millions of files totaling 25G-50G. Because of the very large number of files, archives may take over an hour to extract after they are downloaded.
 
 | Download Links - Zenodo | Download Links - UMass |
 |--------|-------|
