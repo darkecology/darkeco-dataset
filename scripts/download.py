@@ -4,9 +4,9 @@
 Downloader and extractor for the Dark Ecology dataset archives.
 
 Usage examples:
-    python3 scripts/download_data.py --out data --5min
-    python3 scripts/download_data.py --out data --daily --5min --profiles 2012-2022 --extract
-    python3 scripts/download_data.py --out data --all --extract
+    python3 scripts/download.py --5min
+    python3 scripts/download.py --daily --5min --profiles 2012-2022
+    python3 scripts/download.py --all
 
 Requires: Python 3.8+, 'requests' and 'tqdm'
 Install dependencies: python3 -m pip install -r requirements.txt
@@ -203,7 +203,7 @@ def safe_extract_tarball(tar_path: Path, dest_dir: Path, force: bool = False) ->
 
 
 def parse_args(argv: List[str]) -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Download and optionally extract Dark Ecology dataset archives")
+    p = argparse.ArgumentParser(description="Download and extract Dark Ecology dataset archives")
     p.add_argument("--out", default="data", help="Output directory (default: data)")
     p.add_argument("--all", action="store_true", help="Download all known items (may be very large)")
     # convenience flags
