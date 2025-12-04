@@ -70,6 +70,9 @@
 
 [**Organization**](#organization)
 | [**Downloads**](#downloads)
+| [**Data Records**](#data-records)
+| [**Version**](#version)
+| [**License**](#license)
 | [**Citation**](#citation)
 | [**Documentation**](https://darkecology.github.io/dataset/)
 
@@ -95,7 +98,7 @@ Other data products can be downloaded and extracted similarly. See the [download
 
 ## Organization
 
-The data directory, when populated, has this structure:
+The data directory has this structure:
 ```
 data/
 ├── meta/           # metadata
@@ -105,14 +108,17 @@ data/
 └── daily/          # daily time series
 ```
 
-The `meta` subfolder is distributed with this repo and contains [NEXRAD radar station metadata](data/meta/nexrad-stations.csv). All other data files must be downloaded separately. The remaining subfolders correspond to the four types of data products:
+The folders correspond to the main data products. Metadata is included in this repository, while **all other data files must be downloaded separately**.
 
+* **Metadata**: information about [NEXRAD radar stations](data/meta/nexrad-stations.csv).
 * **[Profile data](https://darkecology.github.io/dataset/profiles/)**: Vertical profiles of biological activity for each radar scan. The most detailed data.
 * **[Scan-level time series](https://darkecology.github.io/dataset/time-series/#scan-level-time-series)**: Time series of biological activity for each radar station at irregular time intervals of 4-10 minutes corresponding to the times of the original radar scans.
 * **[5-minute time series](https://darkecology.github.io/dataset/time-series/#5-minute-time-series)**: Time series of biological activity for each radar station at 5-minute time intervals.
 * **[Daily time series](https://darkecology.github.io/dataset/daily/)**: Time series of biological activity for each radar station at a daily time step. 
 
-Read the [documentation](https://darkecology.github.io/dataset/) for details of these data products. In addition to the `data` folder, the repo has top-level folders for [`scripts`](scripts) and [`schemas`](schemas).
+Read the [documentation](https://darkecology.github.io/dataset/) for details of these data products. 
+
+The repository has additional top-level folders for [`scripts`](scripts) and [`schemas`](schemas).
 
 ## Downloads
 
@@ -143,33 +149,25 @@ python scripts/download.py --daily                    # daily time series
 python scripts/download.py --daily --5min --scans     # all time series
 python scripts/download.py --profiles 2010,2015-2017  # selected profiles
 python scripts/download.py --all                      # all data (very long!)
+python scripts/download.py -h                         # see help / full usage
 ```
+This script is for convenience. Performance will not be better and may be slower than downloading and extracting with browser and system utilities.
 
-The full usage is:
+## Data Records
 
-```
-usage: download.py [-h] [--out OUT] [--all] [--profiles PROFILES] [--scans] [--5min] [--daily] [--no-extract]
-                   [--delete-archives] [--dry-run] [--force] [--mirror {zenodo,umass}]
+The Dark Ecology Dataset is officially archived on Zenodo at the DOIs linked at the top of the page.
 
-Download and extract Dark Ecology dataset archives
+## Version
 
-options:
-  -h, --help            show this help message and exit
-  --out OUT             Output directory (default: data)
-  --all                 Download all known items (may be very large)
-  --profiles PROFILES   Comma-separated years and ranges to download, e.g. '2012' or '2012,2014,2016' or '2012-2022'
-  --scans               Download scans archive
-  --5min                Download 5-minute archive
-  --daily               Download daily archive
-  --no-extract          Don't extract .tar.bz2 archives after download
-  --delete-archives     Delete .tar.bz2 archives after extraction (default: keep)
-  --dry-run             Show which URLs would be downloaded and exit (no network activity)
-  --force               Overwrite existing files.
-  --mirror {zenodo,umass}
-                        Which mirror to download from (default: zenodo)
-```
+The current data version is 1.0.0. 
 
-This script is for convenience. Performance will not exceed and may be slower than downloading and extracting with browser and system utilities.
+## License
+
+The Dark Ecology Dataset is licensed under the Creative Commons [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
+
+<a href="https://creativecommons.org/licenses/by/4.0/">
+    <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" style="width: 100px"/>
+</a>
 
 ## Citation
 
