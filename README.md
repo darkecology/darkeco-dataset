@@ -85,6 +85,8 @@ The [Dark Ecology Dataset](https://darkecology.github.io/dataset/) is an open da
 
 ## Quick Start
 
+The data set offers many levels of aggregation. Many users will want the most aggregated data. It contains daily estimates of biological density in the atmosphere for each radar station. To get started:
+
 1. Clone this repository.
 2. Download the [daily time series][daily] data file and save it as `data/daily.tar.bz2`.
 3. Extract the data file:
@@ -102,19 +104,19 @@ The data directory has this structure:
 ```
 data/
 ├── meta/           # metadata
-├── profiles/       # profile data
-├── scans/          # scan-level time series
+|── daily/          # daily time series
 ├── 5min/           # 5-minute time series
-└── daily/          # daily time series
+├── scans/          # scan-level time series
+└── profiles/       # profile data
 ```
 
-The folders correspond to the main data products. Metadata is included in this repository, while **all other data files must be downloaded separately**.
+The folders correspond to the main data products. **All data files, except for metadata, must be downloaded separately**.
 
-* **Metadata**: information about [NEXRAD radar stations](data/meta/nexrad-stations.csv).
-* **[Profile data](https://darkecology.github.io/dataset/profiles/)**: Vertical profiles of biological activity for each radar scan. The most detailed data.
-* **[Scan-level time series](https://darkecology.github.io/dataset/time-series/#scan-level-time-series)**: Time series of biological activity for each radar station at irregular time intervals of 4-10 minutes corresponding to the times of the original radar scans.
-* **[5-minute time series](https://darkecology.github.io/dataset/time-series/#5-minute-time-series)**: Time series of biological activity for each radar station at 5-minute time intervals.
+* **Metadata**: information about [NEXRAD radar stations](data/meta/nexrad-stations.csv) (incluced in this repo).
 * **[Daily time series](https://darkecology.github.io/dataset/daily/)**: Time series of biological activity for each radar station at a daily time step. 
+* **[5-minute time series](https://darkecology.github.io/dataset/time-series/#5-minute-time-series)**: Time series of biological activity for each radar station at 5-minute time intervals.
+* **[Scan-level time series](https://darkecology.github.io/dataset/time-series/#scan-level-time-series)**: Time series of biological activity for each radar station at irregular time intervals of 4-10 minutes corresponding to the times of the original radar scans.
+* **[Profile data](https://darkecology.github.io/dataset/profiles/)**: Vertical profiles of biological activity for each radar scan. The most detailed data.
 
 Read the [documentation](https://darkecology.github.io/dataset/) for details of these data products. 
 
@@ -171,7 +173,7 @@ The Dark Ecology Dataset is licensed under the Creative Commons [CC BY 4.0 Licen
 
 ## Citation
 
-The [Dark Ecology Project](https://darkecology.github.io/) is a joint effort of the University of Massachusetts Amherst and the Cornell Lab of Ornithology. The dataset is provided under a [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license. If you use this dataset, please cite the forthcoming preprint:
+The [Dark Ecology Project](https://darkecology.github.io/) is a joint effort of the University of Massachusetts Amherst and the Cornell Lab of Ornithology. If you use this dataset, please cite the forthcoming preprint:
 
 ```text
 Daniel Sheldon, Kevin Winner, Iman Deznabi, Garrett Bernstein, Pankaj Bhambani, Tsung-Yu Lin, 
