@@ -94,7 +94,7 @@ The data set offers many levels of aggregation. Many users will want the most ag
    cd data
    tar -xjvf data/daily.tar.bz2
    ``` 
-4. Open `scripts/quick_start.ipynb` to explore the data.
+4. Open `scripts/demo.ipynb` to explore the data.
 
 Other data products can be downloaded and extracted similarly. See the [downloads](#downloads) section below. A [download script](#download-script) is also provided.
 
