@@ -81,7 +81,7 @@
 
 ## Overview
 
-The [Dark Ecology Dataset](https://darkecology.github.io/dataset/) is an open dataset of historical bird migration activity in every US weather radar scan from 1995 to 2022. This repository provides a folder structure and supporting files for using the dataset. The data files themselves are hosted on [zenodo](https://zenodo.org/) (and mirrored at UMass) and need to be downloaded and extracted into the `data/` directory.
+The [Dark Ecology Dataset](https://darkecology.github.io/dataset/) is an open dataset of historical bird migration activity in every US weather radar scan from 1995 to 2022. This repository provides a folder structure and supporting files for using the dataset. The data files themselves are hosted on [zenodo](https://zenodo.org/) (and mirrored at UMass) and need to be downloaded and extracted into the `data` directory.
 
 ## Quick Start
 
