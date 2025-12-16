@@ -85,7 +85,7 @@ The [Dark Ecology Dataset](https://darkecology.github.io/dataset/) is an open da
 
 ## Quick Start
 
-The data set offers many levels of aggregation. Many users will want the most aggregated data. It contains daily estimates of biological density in the atmosphere for each radar station. To get started:
+The data set offers several levels of aggregation. Many users will want the most aggregated data. It contains daily estimates of biological density in the atmosphere for each radar station. To get started:
 
 1. Clone this repository.
 2. Download the [daily time series][daily] data file and save it as `data/daily.tar.bz2`.
