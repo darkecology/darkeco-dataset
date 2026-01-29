@@ -13,7 +13,6 @@
             "unit": "m",
             "constraints": {
                 "required": true,
-                "unique": true,
                 "minimum": 0
             }
         },
@@ -24,7 +23,6 @@
             "unit": "m",
             "constraints": {
                 "required": true,
-                "unique": true,
                 "minimum": 0
             }
         },
