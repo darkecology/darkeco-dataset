@@ -5,7 +5,7 @@ Downloader and extractor for the Dark Ecology dataset archives.
 
 Usage examples:
     python3 scripts/download.py --5min
-    python3 scripts/download.py --daily --5min --profiles 2012-2022
+    python3 scripts/download.py --daily --5min --profiles 2012-2025
     python3 scripts/download.py --all
 
 Requires: Python 3.8+, 'requests' and 'tqdm'
@@ -26,73 +26,32 @@ from pathlib import Path
 from typing import Dict, List
 
 
-DOWNLOAD_LINKS: Dict[str, str] = {
-    "5min": "https://zenodo.org/records/13345266/files/5min.tar.bz2",
-    "daily": "https://zenodo.org/records/13345266/files/daily.tar.bz2",
-    "scans": "https://zenodo.org/records/13345266/files/scans.tar.bz2",
-    "profiles_1995": "https://zenodo.org/records/13345174/files/profiles_1995.tar.bz2",
-    "profiles_1996": "https://zenodo.org/records/13345174/files/profiles_1996.tar.bz2",
-    "profiles_1997": "https://zenodo.org/records/13345174/files/profiles_1997.tar.bz2",
-    "profiles_1998": "https://zenodo.org/records/13345174/files/profiles_1998.tar.bz2",
-    "profiles_1999": "https://zenodo.org/records/13345174/files/profiles_1999.tar.bz2",
-    "profiles_2000": "https://zenodo.org/records/13345202/files/profiles_2000.tar.bz2",
-    "profiles_2001": "https://zenodo.org/records/13345202/files/profiles_2001.tar.bz2",
-    "profiles_2002": "https://zenodo.org/records/13345202/files/profiles_2002.tar.bz2",
-    "profiles_2003": "https://zenodo.org/records/13345202/files/profiles_2003.tar.bz2",
-    "profiles_2004": "https://zenodo.org/records/13345202/files/profiles_2004.tar.bz2",
-    "profiles_2005": "https://zenodo.org/records/13345204/files/profiles_2005.tar.bz2",
-    "profiles_2006": "https://zenodo.org/records/13345204/files/profiles_2006.tar.bz2",
-    "profiles_2007": "https://zenodo.org/records/13345204/files/profiles_2007.tar.bz2",
-    "profiles_2008": "https://zenodo.org/records/13345204/files/profiles_2008.tar.bz2",
-    "profiles_2009": "https://zenodo.org/records/13345204/files/profiles_2009.tar.bz2",
-    "profiles_2010": "https://zenodo.org/records/13345206/files/profiles_2010.tar.bz2",
-    "profiles_2011": "https://zenodo.org/records/13345206/files/profiles_2011.tar.bz2",
-    "profiles_2012": "https://zenodo.org/records/13345206/files/profiles_2012.tar.bz2",
-    "profiles_2013": "https://zenodo.org/records/13345206/files/profiles_2013.tar.bz2",
-    "profiles_2014": "https://zenodo.org/records/13345206/files/profiles_2014.tar.bz2",
-    "profiles_2015": "https://zenodo.org/records/13345210/files/profiles_2015.tar.bz2",
-    "profiles_2016": "https://zenodo.org/records/13345210/files/profiles_2016.tar.bz2",
-    "profiles_2017": "https://zenodo.org/records/13345210/files/profiles_2017.tar.bz2",
-    "profiles_2018": "https://zenodo.org/records/13345210/files/profiles_2018.tar.bz2",
-    "profiles_2019": "https://zenodo.org/records/13345210/files/profiles_2019.tar.bz2",
-    "profiles_2020": "https://zenodo.org/records/13345214/files/profiles_2020.tar.bz2",
-    "profiles_2021": "https://zenodo.org/records/13345214/files/profiles_2021.tar.bz2",
-    "profiles_2022": "https://zenodo.org/records/13345214/files/profiles_2022.tar.bz2",
+ZENODO_BASE = "https://zenodo.org/records"
+UMASS_BASE = "https://doppler.cs.umass.edu/darkecodata/1.1.0"
+
+# Mapping from Zenodo record ID to the file keys contained in that record.
+ZENODO_RECORDS: Dict[int, List[str]] = {
+    18433334: ["5min", "daily", "scans"],
+    18436894: [f"profiles_{y}" for y in range(1995, 2000)],
+    18436889: [f"profiles_{y}" for y in range(2000, 2005)],
+    18436884: [f"profiles_{y}" for y in range(2005, 2010)],
+    18436881: [f"profiles_{y}" for y in range(2010, 2015)],
+    18436879: [f"profiles_{y}" for y in range(2015, 2020)],
+    18436874: [f"profiles_{y}" for y in range(2020, 2025)],
+    18436969: ["profiles_2025"],
 }
 
-# Explicit UMass mirror links (same filenames, different base URL)
+# Build download link maps from record structure
+DOWNLOAD_LINKS: Dict[str, str] = {
+    key: f"{ZENODO_BASE}/{record}/files/{key}.tar.bz2"
+    for record, keys in ZENODO_RECORDS.items()
+    for key in keys
+}
+
 UMASS_DOWNLOAD_LINKS: Dict[str, str] = {
-    "5min": "https://doppler.cs.umass.edu/darkecodata/1.0.0/5min.tar.bz2",
-    "daily": "https://doppler.cs.umass.edu/darkecodata/1.0.0/daily.tar.bz2",
-    "scans": "https://doppler.cs.umass.edu/darkecodata/1.0.0/scans.tar.bz2",
-    "profiles_1995": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1995.tar.bz2",
-    "profiles_1996": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1996.tar.bz2",
-    "profiles_1997": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1997.tar.bz2",
-    "profiles_1998": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1998.tar.bz2",
-    "profiles_1999": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1999.tar.bz2",
-    "profiles_2000": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2000.tar.bz2",
-    "profiles_2001": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2001.tar.bz2",
-    "profiles_2002": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2002.tar.bz2",
-    "profiles_2003": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2003.tar.bz2",
-    "profiles_2004": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2004.tar.bz2",
-    "profiles_2005": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2005.tar.bz2",
-    "profiles_2006": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2006.tar.bz2",
-    "profiles_2007": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2007.tar.bz2",
-    "profiles_2008": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2008.tar.bz2",
-    "profiles_2009": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2009.tar.bz2",
-    "profiles_2010": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2010.tar.bz2",
-    "profiles_2011": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2011.tar.bz2",
-    "profiles_2012": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2012.tar.bz2",
-    "profiles_2013": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2013.tar.bz2",
-    "profiles_2014": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2014.tar.bz2",
-    "profiles_2015": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2015.tar.bz2",
-    "profiles_2016": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2016.tar.bz2",
-    "profiles_2017": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2017.tar.bz2",
-    "profiles_2018": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2018.tar.bz2",
-    "profiles_2019": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2019.tar.bz2",
-    "profiles_2020": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2020.tar.bz2",
-    "profiles_2021": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2021.tar.bz2",
-    "profiles_2022": "https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2022.tar.bz2",
+    key: f"{UMASS_BASE}/{key}.tar.bz2"
+    for keys in ZENODO_RECORDS.values()
+    for key in keys
 }
 
 
@@ -290,10 +249,6 @@ def main(argv: List[str]) -> int:
 
     # perform downloads
     for url in to_download:
-        # rewrite URL for selected mirror if necessary
-        if args.mirror == "umass":
-            fname = url.split("/")[-1]
-            url = f"https://doppler.cs.umass.edu/darkecodata/1.0.0/{fname}"
         filename = url.split("/")[-1]
         target = out_dir.joinpath(filename)
         try:

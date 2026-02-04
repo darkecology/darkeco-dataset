@@ -167,7 +167,7 @@ The Dark Ecology Dataset is officially archived on Zenodo at the DOIs linked at 
 
 ## Version
 
-The current data version is 1.0.0. 
+The current data version is 1.1.0.
 
 ## License
 
