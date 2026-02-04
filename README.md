@@ -87,7 +87,7 @@
 
 ## Overview
 
-The [Dark Ecology Dataset](https://darkecology.github.io/dataset/) is an open dataset of historical bird migration activity in every US weather radar scan from 1995 to 2022. This repository provides a folder structure and supporting files for using the dataset. The data files themselves are hosted on [zenodo](https://zenodo.org/) (and mirrored at UMass) and need to be downloaded and extracted into the `data` directory.
+The [Dark Ecology Dataset](https://darkecology.github.io/dataset/) is an open dataset of historical bird migration activity in every US weather radar scan from 1995 to 2025. This repository provides a folder structure and supporting files for using the dataset. The data files themselves are hosted on [zenodo](https://zenodo.org/) (and mirrored at UMass) and need to be downloaded and extracted into the `data` directory.
 
 ## Quick Start
 
@@ -130,19 +130,19 @@ The repository has additional top-level folders for [`scripts`](scripts) and [`s
 
 ## Downloads
 
-Data files can be downloaded from either Zenodo or UMass. Some files can take more than a hour to download, so you may prefer one of the sources based on download performance. Time series data files cover the entire time period from 1995-2022, while the raw profile data is distributed by year. 
+Data files can be downloaded from either Zenodo or UMass. Some files can take more than a hour to download, so you may prefer one of the sources based on download performance. Time series data files cover the entire time period from 1995-2025, while the raw profile data is distributed by year. 
 
 ### Time Series Data
 
 | Data | Filename | Size | Uncompressed <br/> Size | Download Links |
 |:-----:|:-----:|:--:|:--:|:----:|
-| Daily time series | daily.tar.bz2 | 142M | 457M | [[zenodo]][daily] [[umass]][daily-um] |
-| 5-minute time series | 5min.tar.bz2 | 14G | 54G | [[zenodo]][5min] [[umass]][5min-um] |
-| Scan-level time series | scans.tar.bz2 | 11G | 35G | [[zenodo]][scans] [[umass]][scans-um] |
+| Daily time series | daily.tar.bz2 | 160M | 513M | [[zenodo]][daily] [[umass]][daily-um] |
+| 5-minute time series | 5min.tar.bz2 | 16G | 60G | [[zenodo]][5min] [[umass]][5min-um] |
+| Scan-level time series | scans.tar.bz2 | 12G | 40G | [[zenodo]][scans] [[umass]][scans-um] |
 
 ### Profile Data
 
-Profile data is organized by year with filenames like `profiles_1999.tar.bz2`. For each year, the archive file size is 5G-9G and it uncompresses to a directory tree with millions of files totaling 25G-50G. Because of the very large number of files, archives may take over an hour to extract after they are downloaded.
+Profile data is organized by year with filenames like `profiles_1999.tar.bz2`. For each year, the archive file size is 5G-10G and it uncompresses to a directory tree with millions of files totaling 25G-50G. Because of the very large number of files, archives may take over an hour to extract after they are downloaded.
 
 | Download Links - Zenodo | Download Links - UMass |
 |--------|-------|
