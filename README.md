@@ -72,7 +72,7 @@
 
 # The Dark Ecology Dataset
 
-[![DOI](assets/zenodo.13345265.svg)](https://doi.org/10.5281/zenodo.13345265) [![DOI](assets/zenodo.18436968.svg)](https://doi.org/10.5281/zenodo.18436968) [![DOI](assets/zenodo.13345213.svg)](https://doi.org/10.5281/zenodo.13345213) [![DOI](assets/zenodo.13345209.svg)](https://doi.org/10.5281/zenodo.13345209) [![DOI](assets/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) [![DOI](assets/zenodo.13345205.svg)](https://doi.org/10.5281/zenodo.13345205) [![DOI](assets/zenodo.13345201.svg)](https://doi.org/10.5281/zenodo.13345201) [![DOI](assets/zenodo.13345173.svg)](https://doi.org/10.5281/zenodo.13345173)
+[![DOI](assets/zenodo.13345265.svg)](https://doi.org/10.5281/zenodo.13345265) [![DOI](assets/zenodo.18436968.svg)](https://doi.org/10.5281/zenodo.18436968) [![DOI](assets/zenodo.13345213.svg)](https://doi.org/10.5281/zenodo.13345213) [![DOI](assets/zenodo.13345209.svg)](https://doi.org/10.5281/zenodo.13345209) [![DOI](assets/zenodo.13345205.svg)](https://doi.org/10.5281/zenodo.13345205) [![DOI](assets/zenodo.13345203.svg)](https://doi.org/10.5281/zenodo.13345203) [![DOI](assets/zenodo.13345201.svg)](https://doi.org/10.5281/zenodo.13345201) [![DOI](assets/zenodo.13345173.svg)](https://doi.org/10.5281/zenodo.13345173)
 
 [**Organization**](#organization)
 | [**Downloads**](#downloads)
