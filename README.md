@@ -1,72 +1,78 @@
-[5min]: https://zenodo.org/records/13345266/files/5min.tar.bz2
-[daily]: https://zenodo.org/records/13345266/files/daily.tar.bz2
-[scans]: https://zenodo.org/records/13345266/files/scans.tar.bz2
+[5min]: https://zenodo.org/records/18433334/files/5min.tar.bz2
+[daily]: https://zenodo.org/records/18433334/files/daily.tar.bz2
+[scans]: https://zenodo.org/records/18433334/files/scans.tar.bz2
 
-[2022]: https://zenodo.org/records/13345214/files/profiles_2022.tar.bz2
-[2021]: https://zenodo.org/records/13345214/files/profiles_2021.tar.bz2
-[2020]: https://zenodo.org/records/13345214/files/profiles_2020.tar.bz2
-[2019]: https://zenodo.org/records/13345210/files/profiles_2019.tar.bz2
-[2018]: https://zenodo.org/records/13345210/files/profiles_2018.tar.bz2
-[2017]: https://zenodo.org/records/13345210/files/profiles_2017.tar.bz2
-[2016]: https://zenodo.org/records/13345210/files/profiles_2016.tar.bz2
-[2015]: https://zenodo.org/records/13345210/files/profiles_2015.tar.bz2
-[2014]: https://zenodo.org/records/13345206/files/profiles_2014.tar.bz2
-[2013]: https://zenodo.org/records/13345206/files/profiles_2013.tar.bz2
-[2012]: https://zenodo.org/records/13345206/files/profiles_2012.tar.bz2
-[2011]: https://zenodo.org/records/13345206/files/profiles_2011.tar.bz2
-[2010]: https://zenodo.org/records/13345206/files/profiles_2010.tar.bz2
-[2009]: https://zenodo.org/records/13345204/files/profiles_2009.tar.bz2
-[2008]: https://zenodo.org/records/13345204/files/profiles_2008.tar.bz2
-[2007]: https://zenodo.org/records/13345204/files/profiles_2007.tar.bz2
-[2006]: https://zenodo.org/records/13345204/files/profiles_2006.tar.bz2
-[2005]: https://zenodo.org/records/13345204/files/profiles_2005.tar.bz2
-[2004]: https://zenodo.org/records/13345202/files/profiles_2004.tar.bz2
-[2003]: https://zenodo.org/records/13345202/files/profiles_2003.tar.bz2
-[2002]: https://zenodo.org/records/13345202/files/profiles_2002.tar.bz2
-[2001]: https://zenodo.org/records/13345202/files/profiles_2001.tar.bz2
-[2000]: https://zenodo.org/records/13345202/files/profiles_2000.tar.bz2
-[1999]: https://zenodo.org/records/13345174/files/profiles_1999.tar.bz2
-[1998]: https://zenodo.org/records/13345174/files/profiles_1998.tar.bz2
-[1997]: https://zenodo.org/records/13345174/files/profiles_1997.tar.bz2
-[1996]: https://zenodo.org/records/13345174/files/profiles_1996.tar.bz2
-[1995]: https://zenodo.org/records/13345174/files/profiles_1995.tar.bz2
+[2025]: https://zenodo.org/records/18436969/files/profiles_2025.tar.bz2
+[2024]: https://zenodo.org/records/18436874/files/profiles_2024.tar.bz2
+[2023]: https://zenodo.org/records/18436874/files/profiles_2023.tar.bz2
+[2022]: https://zenodo.org/records/18436874/files/profiles_2022.tar.bz2
+[2021]: https://zenodo.org/records/18436874/files/profiles_2021.tar.bz2
+[2020]: https://zenodo.org/records/18436874/files/profiles_2020.tar.bz2
+[2019]: https://zenodo.org/records/18436879/files/profiles_2019.tar.bz2
+[2018]: https://zenodo.org/records/18436879/files/profiles_2018.tar.bz2
+[2017]: https://zenodo.org/records/18436879/files/profiles_2017.tar.bz2
+[2016]: https://zenodo.org/records/18436879/files/profiles_2016.tar.bz2
+[2015]: https://zenodo.org/records/18436879/files/profiles_2015.tar.bz2
+[2014]: https://zenodo.org/records/18436881/files/profiles_2014.tar.bz2
+[2013]: https://zenodo.org/records/18436881/files/profiles_2013.tar.bz2
+[2012]: https://zenodo.org/records/18436881/files/profiles_2012.tar.bz2
+[2011]: https://zenodo.org/records/18436881/files/profiles_2011.tar.bz2
+[2010]: https://zenodo.org/records/18436881/files/profiles_2010.tar.bz2
+[2009]: https://zenodo.org/records/18436884/files/profiles_2009.tar.bz2
+[2008]: https://zenodo.org/records/18436884/files/profiles_2008.tar.bz2
+[2007]: https://zenodo.org/records/18436884/files/profiles_2007.tar.bz2
+[2006]: https://zenodo.org/records/18436884/files/profiles_2006.tar.bz2
+[2005]: https://zenodo.org/records/18436884/files/profiles_2005.tar.bz2
+[2004]: https://zenodo.org/records/18436889/files/profiles_2004.tar.bz2
+[2003]: https://zenodo.org/records/18436889/files/profiles_2003.tar.bz2
+[2002]: https://zenodo.org/records/18436889/files/profiles_2002.tar.bz2
+[2001]: https://zenodo.org/records/18436889/files/profiles_2001.tar.bz2
+[2000]: https://zenodo.org/records/18436889/files/profiles_2000.tar.bz2
+[1999]: https://zenodo.org/records/18436894/files/profiles_1999.tar.bz2
+[1998]: https://zenodo.org/records/18436894/files/profiles_1998.tar.bz2
+[1997]: https://zenodo.org/records/18436894/files/profiles_1997.tar.bz2
+[1996]: https://zenodo.org/records/18436894/files/profiles_1996.tar.bz2
+[1995]: https://zenodo.org/records/18436894/files/profiles_1995.tar.bz2
 
-[scans-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/scans.tar.bz2
-[5min-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/5min.tar.bz2
-[daily-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/daily.tar.bz2
+[scans-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/scans.tar.bz2
+[5min-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/5min.tar.bz2
+[daily-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/daily.tar.bz2
 
-[1995-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1995.tar.bz2
-[1996-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1996.tar.bz2
-[1997-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1997.tar.bz2
-[1998-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1998.tar.bz2
-[1999-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_1999.tar.bz2
-[2000-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2000.tar.bz2
-[2001-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2001.tar.bz2
-[2002-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2002.tar.bz2
-[2003-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2003.tar.bz2
-[2004-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2004.tar.bz2
-[2005-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2005.tar.bz2
-[2006-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2006.tar.bz2
-[2007-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2007.tar.bz2
-[2008-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2008.tar.bz2
-[2009-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2009.tar.bz2
-[2010-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2010.tar.bz2
-[2011-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2011.tar.bz2
-[2012-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2012.tar.bz2
-[2013-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2013.tar.bz2
-[2014-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2014.tar.bz2
-[2015-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2015.tar.bz2
-[2016-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2016.tar.bz2
-[2017-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2017.tar.bz2
-[2018-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2018.tar.bz2
-[2019-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2019.tar.bz2
-[2020-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2020.tar.bz2
-[2021-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2021.tar.bz2
-[2022-um]: https://doppler.cs.umass.edu/darkecodata/1.0.0/profiles_2022.tar.bz2
+[1995-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_1995.tar.bz2
+[1996-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_1996.tar.bz2
+[1997-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_1997.tar.bz2
+[1998-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_1998.tar.bz2
+[1999-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_1999.tar.bz2
+[2000-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2000.tar.bz2
+[2001-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2001.tar.bz2
+[2002-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2002.tar.bz2
+[2003-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2003.tar.bz2
+[2004-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2004.tar.bz2
+[2005-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2005.tar.bz2
+[2006-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2006.tar.bz2
+[2007-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2007.tar.bz2
+[2008-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2008.tar.bz2
+[2009-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2009.tar.bz2
+[2010-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2010.tar.bz2
+[2011-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2011.tar.bz2
+[2012-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2012.tar.bz2
+[2013-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2013.tar.bz2
+[2014-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2014.tar.bz2
+[2015-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2015.tar.bz2
+[2016-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2016.tar.bz2
+[2017-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2017.tar.bz2
+[2018-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2018.tar.bz2
+[2019-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2019.tar.bz2
+[2020-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2020.tar.bz2
+[2021-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2021.tar.bz2
+[2022-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2022.tar.bz2
+[2023-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2023.tar.bz2
+[2024-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2024.tar.bz2
+[2025-um]: https://doppler.cs.umass.edu/darkecodata/1.1.0/profiles_2025.tar.bz2
 
 # The Dark Ecology Dataset
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345210.svg)](https://doi.org/10.5281/zenodo.13345210) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345204.svg)](https://doi.org/10.5281/zenodo.13345204) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345202.svg)](https://doi.org/10.5281/zenodo.13345202) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345174.svg)](https://doi.org/10.5281/zenodo.13345174) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345265.svg)](https://doi.org/10.5281/zenodo.13345265) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18436968.svg)](https://doi.org/10.5281/zenodo.18436968) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345213.svg)](https://doi.org/10.5281/zenodo.13345213) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345209.svg)](https://doi.org/10.5281/zenodo.13345209) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345205.svg)](https://doi.org/10.5281/zenodo.13345205) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345201.svg)](https://doi.org/10.5281/zenodo.13345201) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345173.svg)](https://doi.org/10.5281/zenodo.13345173) 
 
 [**Organization**](#organization)
 | [**Downloads**](#downloads)
@@ -187,10 +193,11 @@ Please also cite the zenodo records for data that you use:
 
 | data | record |
 |-|-|
-| Time series data | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266) |
-| Profiles, 2020–2022 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214) |
-| Profiles, 2015-2019 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345210.svg)](https://doi.org/10.5281/zenodo.13345210) |
-| Profiles, 2010-2014 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) |
-| Profiles, 2005-2009 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345204.svg)](https://doi.org/10.5281/zenodo.13345204) |
-| Profiles, 2000-2004 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345202.svg)](https://doi.org/10.5281/zenodo.13345202) |
-| Profiles, 1995-1999 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345174.svg)](https://doi.org/10.5281/zenodo.13345174) |
+| Time series data | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345265.svg)](https://doi.org/10.5281/zenodo.13345265) |
+| Profiles, 2025–2029 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18436968.svg)](https://doi.org/10.5281/zenodo.18436968) |
+| Profiles, 2020–2024 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345213.svg)](https://doi.org/10.5281/zenodo.13345213) |
+| Profiles, 2015-2019 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345209.svg)](https://doi.org/10.5281/zenodo.13345209) |
+| Profiles, 2010-2014 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345205.svg)](https://doi.org/10.5281/zenodo.13345205) |
+| Profiles, 2005-2009 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345203.svg)](https://doi.org/10.5281/zenodo.13345203) |
+| Profiles, 2000-2004 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345201.svg)](https://doi.org/10.5281/zenodo.13345201) |
+| Profiles, 1995-1999 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345173.svg)](https://doi.org/10.5281/zenodo.13345173) |
