@@ -72,7 +72,7 @@
 
 # The Dark Ecology Dataset
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345265.svg)](https://doi.org/10.5281/zenodo.13345265) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18436968.svg)](https://doi.org/10.5281/zenodo.18436968) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345213.svg)](https://doi.org/10.5281/zenodo.13345213) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345209.svg)](https://doi.org/10.5281/zenodo.13345209) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345205.svg)](https://doi.org/10.5281/zenodo.13345205) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345201.svg)](https://doi.org/10.5281/zenodo.13345201) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345173.svg)](https://doi.org/10.5281/zenodo.13345173) 
+[![DOI](assets/zenodo.13345265.svg)](https://doi.org/10.5281/zenodo.13345265) [![DOI](assets/zenodo.18436968.svg)](https://doi.org/10.5281/zenodo.18436968) [![DOI](assets/zenodo.13345213.svg)](https://doi.org/10.5281/zenodo.13345213) [![DOI](assets/zenodo.13345209.svg)](https://doi.org/10.5281/zenodo.13345209) [![DOI](assets/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) [![DOI](assets/zenodo.13345205.svg)](https://doi.org/10.5281/zenodo.13345205) [![DOI](assets/zenodo.13345201.svg)](https://doi.org/10.5281/zenodo.13345201) [![DOI](assets/zenodo.13345173.svg)](https://doi.org/10.5281/zenodo.13345173)
 
 [**Organization**](#organization)
 | [**Downloads**](#downloads)
@@ -82,8 +82,6 @@
 | [**Citation**](#citation)
 | [**Documentation**](https://darkecology.github.io/dataset/)
 
-
-<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345266.svg)](https://doi.org/10.5281/zenodo.13345266) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345214.svg)](https://doi.org/10.5281/zenodo.13345214) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345210.svg)](https://doi.org/10.5281/zenodo.13345210) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345206.svg)](https://doi.org/10.5281/zenodo.13345206) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345204.svg)](https://doi.org/10.5281/zenodo.13345204) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345202.svg)](https://doi.org/10.5281/zenodo.13345202) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345174.svg)](https://doi.org/10.5281/zenodo.13345174)  -->
 
 ## Overview
 
@@ -174,7 +172,7 @@ The current data version is 1.1.0.
 The Dark Ecology Dataset is licensed under the Creative Commons [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 
 <a href="https://creativecommons.org/licenses/by/4.0/">
-    <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by.svg" style="width: 100px"/>
+    <img src="assets/cc-by.svg" style="width: 100px"/>
 </a>
 
 ## Citation
@@ -193,11 +191,11 @@ Please also cite the zenodo records for data that you use:
 
 | data | record |
 |-|-|
-| Time series data | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345265.svg)](https://doi.org/10.5281/zenodo.13345265) |
-| Profiles, 2025–2029 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18436968.svg)](https://doi.org/10.5281/zenodo.18436968) |
-| Profiles, 2020–2024 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345213.svg)](https://doi.org/10.5281/zenodo.13345213) |
-| Profiles, 2015-2019 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345209.svg)](https://doi.org/10.5281/zenodo.13345209) |
-| Profiles, 2010-2014 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345205.svg)](https://doi.org/10.5281/zenodo.13345205) |
-| Profiles, 2005-2009 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345203.svg)](https://doi.org/10.5281/zenodo.13345203) |
-| Profiles, 2000-2004 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345201.svg)](https://doi.org/10.5281/zenodo.13345201) |
-| Profiles, 1995-1999 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13345173.svg)](https://doi.org/10.5281/zenodo.13345173) |
+| Time series data | [![DOI](assets/zenodo.13345265.svg)](https://doi.org/10.5281/zenodo.13345265) |
+| Profiles, 2025–2029 | [![DOI](assets/zenodo.18436968.svg)](https://doi.org/10.5281/zenodo.18436968) |
+| Profiles, 2020–2024 | [![DOI](assets/zenodo.13345213.svg)](https://doi.org/10.5281/zenodo.13345213) |
+| Profiles, 2015-2019 | [![DOI](assets/zenodo.13345209.svg)](https://doi.org/10.5281/zenodo.13345209) |
+| Profiles, 2010-2014 | [![DOI](assets/zenodo.13345205.svg)](https://doi.org/10.5281/zenodo.13345205) |
+| Profiles, 2005-2009 | [![DOI](assets/zenodo.13345203.svg)](https://doi.org/10.5281/zenodo.13345203) |
+| Profiles, 2000-2004 | [![DOI](assets/zenodo.13345201.svg)](https://doi.org/10.5281/zenodo.13345201) |
+| Profiles, 1995-1999 | [![DOI](assets/zenodo.13345173.svg)](https://doi.org/10.5281/zenodo.13345173) |
