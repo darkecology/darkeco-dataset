@@ -177,14 +177,16 @@ The Dark Ecology Dataset is licensed under the Creative Commons [CC BY 4.0 Licen
 
 ## Citation
 
-The [Dark Ecology Project](https://darkecology.github.io/) is a joint effort of the University of Massachusetts Amherst and the Cornell Lab of Ornithology. If you use this dataset, please cite the forthcoming preprint:
+The [Dark Ecology Project](https://darkecology.github.io/) is a joint effort of the University of Massachusetts Amherst and the Cornell Lab of Ornithology. 
+
+A [preprint](https://www.biorxiv.org/content/10.64898/2026.06.20.733536v1) is available describing the dataset. Please cite it if you use the data:
 
 ```text
 Daniel Sheldon, Kevin Winner, Iman Deznabi, Garrett Bernstein, Pankaj Bhambani, Tsung-Yu Lin, 
 Peter Desmet, Adriaan M. Dokter, Kyle G. Horton, Cecilia Nilsson, Benjamin M. Van Doren, 
 Andrew Farnsworth, Frank A. La Sorte, and Subhransu Maji. 
-Measurements of Aerial Biomass in US Weather Radar from 1995 to 2025. 
-https://darkecology.github.io/dataset
+The Dark Ecology Dataset: Measurements of Aerial Biomass in US Weather Radar from 1995 to 2025.
+bioRxiv 2026.06.20.733536; doi: https://doi.org/10.64898/2026.06.20.733536
 ```
 
 Please also cite the zenodo records for data that you use:
