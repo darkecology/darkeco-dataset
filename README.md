@@ -182,7 +182,7 @@ The [Dark Ecology Project](https://darkecology.github.io/) is a joint effort of 
 A [preprint](https://www.biorxiv.org/content/10.64898/2026.06.20.733536v1) is available describing the dataset. Please cite it if you use the data:
 
 ```text
-Daniel Sheldon, Kevin Winner, Iman Deznabi, Garrett Bernstein, Pankaj Bhambani, Tsung-Yu Lin, 
+Daniel Sheldon, Kevin Winner, Iman Deznabi, Garrett Bernstein, Pankaj Bhambhani, Tsung-Yu Lin, 
 Peter Desmet, Adriaan M. Dokter, Kyle G. Horton, Cecilia Nilsson, Benjamin M. Van Doren, 
 Andrew Farnsworth, Frank A. La Sorte, and Subhransu Maji. 
 The Dark Ecology Dataset: Measurements of Biological Activity in US Weather Radar from 1995 to 2025.
