@@ -185,7 +185,7 @@ A [preprint](https://www.biorxiv.org/content/10.64898/2026.06.20.733536v1) is av
 Daniel Sheldon, Kevin Winner, Iman Deznabi, Garrett Bernstein, Pankaj Bhambani, Tsung-Yu Lin, 
 Peter Desmet, Adriaan M. Dokter, Kyle G. Horton, Cecilia Nilsson, Benjamin M. Van Doren, 
 Andrew Farnsworth, Frank A. La Sorte, and Subhransu Maji. 
-The Dark Ecology Dataset: Measurements of Aerial Biomass in US Weather Radar from 1995 to 2025.
+The Dark Ecology Dataset: Measurements of Biological Activity in US Weather Radar from 1995 to 2025.
 bioRxiv 2026.06.20.733536; doi: https://doi.org/10.64898/2026.06.20.733536
 ```
 
